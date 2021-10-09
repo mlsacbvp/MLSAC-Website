@@ -1,0 +1,158 @@
+* {
+  overflow: hidden;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI'), url('Segoe UI.woff') format('woff');
+  }
+  
+  @font-face {
+  font-family: 'Segoe UI Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+  }
+
+  @font-face {
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Segoe UI Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+  }
+
+  body{
+ font-family: 'Segoe UI Regular';
+  }
+
+.main {
+  border: 30px solid #203a61;
+  position: absolute;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95.85%;
+  height: 92.9%;
+}
+.logo-image {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding-left: 42%;
+  padding-top: 15%;
+}
+.logo-image > img {
+  width: 15rem;
+}
+.title {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  font-size: 1.8rem;
+  color: white;
+  top: 34rem;
+  /* font-family: 'Segoe UI Regular'; Font not working */
+}
+.social {
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+}
+
+.social > a > img {
+  width: 3.2em;
+  padding: 2em;
+}
+
+.buttons {
+  color: white;
+  font-size: 1.8rem;
+  display: flex;
+}
+
+.About,
+.Events {
+  position: absolute;
+  top: 23rem;
+  border: 1px solid #203a61;
+  background-color: #203a61;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  /* font-family: 'Segoe UI Regular'; Font not working */
+}
+
+.Events {
+  position: absolute;
+  right: -0.7rem;
+}
+.About {
+  position: absolute;
+  left: -0.7rem;
+}
+
+.popup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us,
+.upcoming-events {
+  position: absolute;
+  justify-content: center;
+  bottom: -38rem;
+  width: 50%;
+  height: 35rem;
+  border: 1px solid #5C2D91;
+  background-color: #5C2D91;
+  transition: all 0.5s ease-in;
+}
+.about-us > a > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.upcoming-events > a > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button{
+  align-items: center;
+  padding: 1rem;
+  width: 18rem;  
+  /* font-family: 'Segoe UI Regular';   Font not working */
+  font-size: 1rem;
+  color:white;
+  background-color: black;
+  border-radius: 2rem;
+}
+.upcoming-events > button{
+  margin-left: 30%;
+  margin-top: 38%;
+}
+.about-us > button{
+  margin-left: 30%;
+  margin-top: 10%;
+}
