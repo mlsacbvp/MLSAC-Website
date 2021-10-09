@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+body{
+    /* background: linear-gradient(180deg, #1e3a61 0%, #113860 20%, #052a4a 55%, #041227 80%, #0d0d0d 100%); */
+    background: #203A61;
+    font-family: 'Segoe UI Regular';
+    font-weight: normal;
+}
+
+html{
+    font-size: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 46vw;
+    /* height: 21vh; */
+}
+
+.links{
+    margin-bottom: 1vh;
+}
+
+.links li{
+    list-style: none;
+    display: inline-block;
+}
+
+.links li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 40em;
+    width: 12vw;
+    min-width: 5.4em;
+    height: 7vh;
+    margin: 0px 1vw;
+    text-align: center;
+    /* padding-top: 0.9vh; */
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+
+.heading{
+    font-size: 7em;
+    text-align: center;
+    margin-top: -1vh;
+    font-weight: 700;
+}
+
+.about-img img {
+    width: 77%;
+    height: 113vh;
+    margin: auto;
+    display: block;
+}
+
+.desc{
+    width: 54%;
+    font-size: 2.7em;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.desc::after{
+    position: absolute;
+    width: 65%;
+    height: 0.6vh;
+    background: white;
+    content: "";
+    bottom: -6vh;
+    left: 17.5%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+    background: white;
+    /* height: 80v; */
+}
+
+.card{
+    width: 94vw;
+    background: #00006A;
+    border-radius: 3.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 4em;
+    margin: 3em 0;
+    padding-top: 2em;
+}
+
+.vis-text{
+    width: 38vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vis-img img{
+    width: 39vw;
+}
+
+.desc-1{
+    font-size: 2.0em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.heading-1{
+    margin-bottom: 0.2em;
+    font-size: 10em;
+}
+
+
+.heading-contact{
+    margin: auto;
+    font-size: 5em;
+    width: fit-content;
+    margin-top: 20vh;
+    position: relative;
+}
+
+.heading-contact::after{
+    content: "";
+    width: 50%;
+    height: 0.6vh;
+    background: white;
+    position: absolute;
+    bottom: -1.8vh;
+    left: 25%;
+}
+
+.contactus{
+    display: flex;
+    justify-content: space-between;
+    width: 66vw;
+    margin: auto;
+    margin-top: 9vh;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    align-items: center;
+}
+
+.icon img{
+    width: 7em;
+    height: 7em;
+    margin-bottom: 2.5vh;
+}
+
+.telephone img{
+    transform: rotate(-54.63deg);
+}
+
+.icon-name{
+    font-size: 1.4em;
+}
+
+.socials{
+    display: flex;
+    width: 16vw;
+    margin: 7vh auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials a img{
+    width: 4.2em;
+    height: 4.2em;
+}
+
+.footer{
+    text-align: center;
+    width: fit-content;
+    margin: 2em auto 0 auto;
+    padding-bottom: 2em;
+}
+
+.footer span{
+    font-size: 1.3em;
+}
+
+.bottom{
+    /* background: linear-gradient(180deg, rgba(1, 6, 56, 0) 0%, #0E0E0E 89.58%); */
+    background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
+}
+
+
+.faq1{
+    width: 82vw;
+    border-radius: 0.5em;
+    font-size: 2.3em;
+    text-align: left;
+    padding-left: 1em;
+    margin: auto;
+    font-family: 'Segoe UI Regular';
+
+}
+.ques{
+    background: white;
+    min-height: 7vh;
+    display: block;
+    margin-top: 1em;
+    transition: transform 0.2s ease-in;
+}
+
+.ques:hover{
+    box-shadow: black -10px 4px -2px 0;
+}
+
+.quesbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqHead{
+    margin-top: 10vh;
+    font-size: 5em;
+}
+
+.answer{
+    padding: .375rem .75rem;
+    padding-left: 1em;
+    min-height: 12vh;
+    background: #c8cdd5;
+
+}
