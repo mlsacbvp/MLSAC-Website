@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLSAC BVP</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="logo-image">
+        <img src="images/MLSAC_Logo.png" alt="mlsac logo" />
+      </div>
+
+      <div class="buttons">
+        <div onmouseenter="animationPopup1()" class="About">ABOUT</div>
+        <div class="Events" onmouseenter="animationPopup2()">EVENTS</div>
+      </div>
+
+      <div class="title">
+        <p>MICROSOFT LEARN STUDENT AMBASSADOR CHAPTER</p>
+      </div>
+      <div class="social">
+        <a target=”_blank” href="https://www.instagram.com/mlsac_bvcoe/"
+          ><img src="images/icons/instalogo.png" alt="instagramIcon" />
+        </a>
+        <a href="mailto:mlscbvp@gmail.com"
+          ><img src="images/icons/outlooklogo.png" alt="mailIcon"
+        /></a>
+        <a target=”_blank” href="https://www.linkedin.com/company/microsoft-learn-student-chapter-mlsc-bvp"
+          ><img src="images/icons/linkedinlogo.png" alt="LinkedInIcon"
+        /></a>
+      </div>
+    </div>
+
+    <!-- These are popup cards -->
+    <div class="popup">
+      <div onmouseleave="leave1()" class="about-us">
+        <a href=""><img src="images/about-us.jpeg" alt="about us image" /></a>
+        <!--Add the link to about page here in href-->
+        <button>Know more...</button> <!--shall we remove the button?-->
+      </div>
+
+      <div onmouseleave="leave2()" class="upcoming-events">
+        <a href=""><img src="images/events.png" alt="event image" /></a>
+        <!--Add the link to upcoming event page here in href-->
+        <button>Know more...</button>
+      </div>
+    </div>
+  </body>
+  <script src="home.js"></script>
+</html>
