@@ -1,0 +1,6 @@
+/* --to style bootstrap elements and classes-- */
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+}

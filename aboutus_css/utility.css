@@ -1,0 +1,145 @@
+.black-text{
+    color: black;
+    text-decoration: none;
+}
+
+.white-text{
+    color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('Segoe UI.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    }
+
+@media screen and (max-width: 450px){
+    html{
+        font-size: 4px;
+    }
+    
+    .links {
+        margin-bottom: 0vh;
+    }
+    
+    .links li a{
+        height: 2em;
+    }
+
+    .heading {
+        margin-top: 2vh;
+        font-size: 10em;
+    }
+
+    .about-img img {
+        width: 85%;
+        height: 28vh;
+    }
+        
+    .heading-1 {
+        font-size: 8em;
+    }
+
+    .desc-1 {
+        width: 100%;
+        font-size: 2.3em;
+    }
+
+    .cards {
+        margin-top: 9vh;
+    }
+
+    .card {
+        width: 94vw;
+    }
+
+    .vis-img img {
+        width: 45vw;
+    }
+
+    .desc {
+        font-size: 5em;
+        width: 76%;
+        margin-top: 1em;
+    }
+
+    .desc::after {
+        bottom: -3vh;
+        height: 0.2vh;
+    }
+
+    .faqHead {
+        margin-top: 3vh;
+        font-size: 6em;
+    }
+
+    .ques {
+        min-height: 3vh;
+        width: 87vw;
+        font-size: 3.2em;
+    }
+
+    .contactus{
+        margin-top: 5vh;
+    }
+
+    .answer {
+        min-height: 4vh;
+    }
+
+    .faq1 {
+        width: 87vw;
+        font-size: 3.2em;
+    }
+
+    .heading-contact {
+        margin-top: 3vh;
+    }
+
+    .heading-contact::after {
+        width: 55%;
+        height: 0.2vh;
+        bottom: -1.2vh;
+    }
+
+    .socials {
+        width: 24vw;
+        margin-top: 4vw;
+    }
+    
+    .icon img {
+        width: 5em;
+        height: 5em;
+    }
+
+    .socials a img {
+        width: 3.2em;
+        height: 3.2em;
+    }
+}
