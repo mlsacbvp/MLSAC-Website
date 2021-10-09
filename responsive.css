@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left iframe{
+    margin: 0;
+    height: 80vh;
+    width: 70vw;
+}
+
+body::before{
+    height: 225vh;
+}
+
+body{
+    background-color: #0d0d0d;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapouter{
+    margin-top: 50px;
+    width: 70vw;
+    height: 50vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; */
+}
+
+.gmap_canvas{
+    width: 70vw;
+    height: 50vh;
+}
+.gmap_canvas iframe{
+    width: 70vw;
+    height: 50vh;
+}
