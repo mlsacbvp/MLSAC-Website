@@ -7,8 +7,8 @@
 
 .left iframe{
     margin: 0;
-    height: 80vh;
-    width: 70vw;
+    height: 70vh;
+    width: 80vw;
 }
 
 body::before{
