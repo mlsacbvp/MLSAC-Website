@@ -122,8 +122,8 @@ body {
   bottom: -38vh;
   width: 50%;
   height: 30vh;
-  border: 1px solid #50E6FF
-  background-color: #50E6FF
+  border: 1px solid #50E6FF;
+  background-color: #50E6FF;
   transition: all 0.5s ease-in;
 }
 .about-us > a > img {
