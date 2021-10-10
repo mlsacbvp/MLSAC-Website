@@ -1,0 +1,60 @@
+.past-heading{
+  color: black;
+  font-size: 5rem;
+  font-weight: normal;
+} 
+ 
+.past-events{
+  /* display: flex; */
+  /* padding: 13vh; */
+  justify-content: center;
+  background-color: white;
+}
+
+.past-container{
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  /* margin: 13vh; */
+  /* width: 100vw; */
+}
+
+.past-card {
+  display: flex;
+  height: 50rem;
+  padding: 0px 20px;
+  /* width: 30rem; */
+  position: relative;
+  left: 0px;  
+}
+
+figure{
+  width: min-content;
+}
+  
+.past-photo{
+  height: 34rem;
+  width: 25rem;
+  box-shadow: -1rem 0 3rem rgba(47,47,47, 0.8);
+}
+.past-card:hover .past-photo{
+  transform: scale(1.1);
+}
+
+  
+.past-title {
+  color: black;
+  /* position: absolute; */
+  font-size: 2.5rem;
+  padding: 2rem 0.5rem;
+}
+  
+  
+
+figcaption{
+  text-align: justify;
+  color: black;
+  font-size: small;
+  padding: 0rem 0.3rem;
+
+} 
