@@ -51,6 +51,11 @@
     .links li a{
         height: 2em;
     }
+    
+    .links li a:hover{
+        transform: translateY(0);
+        color: black;
+    }
 
     .heading {
         margin-top: 2vh;

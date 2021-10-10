@@ -51,7 +51,13 @@ html{
     text-decoration: none;
     font-size: 2.5em;
     font-weight: bold;
+    transition: transform 0.1s ease-in;
     
+}
+
+.links li a:hover{
+    transform: translateY(-0.3em);
+    color: black;
 }
 
 .heading{
@@ -216,8 +222,8 @@ html{
     padding-left: 1em;
     margin: auto;
     font-family: 'Segoe UI Regular';
-
 }
+
 .ques{
     background: white;
     min-height: 7vh;

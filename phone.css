@@ -2,6 +2,34 @@
     overflow: hidden;
 } */
 
+
+/* styling for navbar */
+
+@media screen and (max-width: 450px){
+    html{
+        font-size: 4px;
+    }
+    
+    .links {
+        margin-bottom: 0vh;
+    }
+    
+    .links li a{
+        height: 2em;
+    }
+    
+    .links li a:hover{
+        transform: translateY(0);
+        color: black;
+    }
+
+    footer {
+        padding-top: 5px;
+    }
+}
+
+/* ----------- */
+
 .list ul li a{
     font-size: 1em;
     height: 3vh;
@@ -14,7 +42,7 @@
 }
 
 .socials i{
-    font-size: 2.2rem;
+    font-size: 4.2rem;
     margin: 0px -10px;
 }
 
