@@ -12,9 +12,11 @@ let animationPopup2 = () => {
 }
 
 function leave1(){
-    about.style.bottom = "-50vh";
+    about.style.bottom = "-30vh";
+    about.style.animation = "rotate 0.6s linear 1";
 }
 
 function leave2(){
     events.style.bottom = "-50vh";
+    about.style.animation = "rotate 0.6s linear 1";
 }
