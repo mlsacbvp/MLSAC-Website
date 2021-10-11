@@ -38,24 +38,17 @@
 body {
   overflow: hidden;
   font-family: "Segoe UI Regular";
-  background: #203a61;
 }
 
 .main {
-
-  /* changes have to be made here. something in width section*/
-  /* border: 30px solid #203a61; */
+  border: 30px solid #203a61;
   position: absolute;
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 98%;
-  height: 96%;
-  box-sizing: border-box;
-  margin: 1%;
-  border-radius: 20px;
+  width: 95.85vw;
+  height: 92.9vh;
 }
-
 .logo-image {
   position: absolute;
   display: flex;
