@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+  padding-left:0px;
+}
+.container1{
+    padding-top: 30px;
+    
+}
+
+.member{
+    clip-path: circle();
+}
+.item1{
+padding-left: 360px;
+}
+.item2{
+  padding-left: 85px;
+  padding-top: 30px;
+
+}
+
+.item4{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.item5{
+  padding-left: 130px;
+  
+}
+.item7{
+ padding-left: 400px;
+ 
+}
+.item8{
+  padding-left: 60px;
+  padding-right: 0px;
+}
+.studentmentor{
+  padding-left: 85px;
+  padding-top: 30px;
+
+}
+.container4{
+  padding-left: 125px;
+}
+.container7{
+  padding-left: 370px;
+}
+.item9{
+ padding-left: 25px;
+}
+.item10{
+ padding-top: -1000px;
+ padding-left: 550px;
+}
+
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo{
+  width: 46vw;
+}
+
+.list{
+  margin-bottom: 1vh;
+}
+
+.list ul{
+  display: flex;
+  list-style: none;
+}
+
+.list ul li a{
+  color: black;
+  display: inline-block;
+  background: white;
+  border-radius: 40em;
+  width: 12vw;
+  height: 6vh;
+  margin: 0px 1vw;
+  text-align: center;
+  padding-top: 0.9vh;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list ul li a:hover{
+  background-color: gray;
+}
+
+
+
+footer{
+  padding-top: 100px;
+  /* position: absolute; */
+}
+
+.socials{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 23vw;
+}
+
+.socials i{
+  color: white;
+  font-size: 4.2rem;
+}
+
+.footer{
+  text-align: center;
+  width: fit-content;
+  margin: 2em auto 2em auto;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer span{
+  font-size: 1.3em;
+}
+
+.white-text{
+  color: white;
+}
+
+
+
+
+
+
+
