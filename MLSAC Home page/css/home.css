@@ -38,17 +38,24 @@
 body {
   overflow: hidden;
   font-family: "Segoe UI Regular";
+  background: #203a61;
 }
 
 .main {
-  border: 30px solid #203a61;
+
+  /* changes have to be made here. something in width section*/
+  /* border: 30px solid #203a61; */
   position: absolute;
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 95.85vw;
-  height: 92.9vh;
+  width: 98%;
+  height: 96%;
+  box-sizing: border-box;
+  margin: 1%;
+  border-radius: 20px;
 }
+
 .logo-image {
   position: absolute;
   display: flex;
@@ -122,8 +129,8 @@ body {
   bottom: -38vh;
   width: 50%;
   height: 30vh;
-  border: 1px solid #50E6FF
-  background-color: #50E6FF
+  border: 1px solid #50E6FF;
+  background-color: #50E6FF;
   transition: all 0.5s ease-in;
 }
 .about-us > a > img {
