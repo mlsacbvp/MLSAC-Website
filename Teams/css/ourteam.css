@@ -1,7 +1,7 @@
 *{
   margin: 0px;
   padding-left:0px;
-}
+} 
 .container1{
     padding-top: 30px;
     
@@ -54,7 +54,7 @@ padding-left: 360px;
  padding-left: 550px;
 }
 
-
+/* navbar */
 
 .navbar{
   display: flex;
@@ -96,44 +96,122 @@ padding-left: 360px;
   background-color: gray;
 }
 
+/* footer */
 
+.heading-contact{
+  margin: auto;
+  font-size: 5em;
+  width: fit-content;
+  margin-top: 20vh;
+  position: relative;
+}
 
-footer{
-  padding-top: 100px;
-  /* position: absolute; */
+.heading-contact::after{
+  content: "";
+  width: 50%;
+  height: 0.6vh;
+  background: white;
+  position: absolute;
+  bottom: -1.8vh;
+  left: 25%;
+}
+
+.contactus{
+  display: flex;
+  justify-content: space-between;
+  width: 66vw;
+  margin: auto;
+  margin-top: 9vh;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  align-items: center;
+}
+
+.icon img{
+  width: 7em;
+  height: 7em;
+  margin-bottom: 2.5vh;
+}
+
+.telephone img{
+  transform: rotate(-54.63deg);
+}
+
+.icon-name{
+  font-size: 1.4em;
 }
 
 .socials{
   display: flex;
+  width: 16vw;
+  margin: 7vh auto 0 auto;
   justify-content: space-between;
-  margin: auto;
-  width: 23vw;
+  align-items: center;
 }
 
-.socials i{
-  color: white;
-  font-size: 4.2rem;
+.socials a img{
+  width: 4.2em;
+  height: 4.2em;
 }
 
 .footer{
   text-align: center;
   width: fit-content;
-  margin: 2em auto 2em auto;
-  position: absolute;
-  bottom: 0px;
+  margin: 2em auto 0 auto;
+  padding-bottom: 2em;
 }
 
 .footer span{
   font-size: 1.3em;
 }
 
-.white-text{
-  color: white;
+.bottom{
+  /* background: linear-gradient(180deg, rgba(1, 6, 56, 0) 0%, #0E0E0E 89.58%); */
+  background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
 }
 
 
+.faq1{
+  width: 82vw;
+  border-radius: 0.5em;
+  font-size: 2.3em;
+  text-align: left;
+  padding-left: 1em;
+  margin: auto;
+  font-family: 'Segoe UI Regular';
+}
 
+.ques{
+  background: white;
+  min-height: 7vh;
+  display: block;
+  margin-top: 1em;
+  transition: transform 0.2s ease-in;
+}
 
+.ques:hover{
+  box-shadow: black -10px 4px -2px 0;
+}
 
+.quesbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.faqHead{
+  margin-top: 10vh;
+  font-size: 5em;
+}
 
+.answer{
+  padding: .375rem .75rem;
+  padding-left: 1em;
+  min-height: 12vh;
+  background: #c8cdd5;
+
+}
