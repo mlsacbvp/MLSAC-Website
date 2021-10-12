@@ -121,33 +121,15 @@ body {
   justify-content: center;
   bottom: -138vh;
   width: 50%;
-  height: 60vh;
+  height: 80vh;
   border: 1px solid #50E6FF;
   background-color: #50E6FF;
-  transition: all 0.6s ease-in-out;
-  animation: rotate 0.6s linear 1;
-}
-
-@keyframes rotate {
-  0%{
-    transform: rotate(0deg);
-  }
-  50%{
-    transform: rotate(180deg);
-  }
-  100%{
-    transform: rotate(360deg);
-  }
 }
 .about-us > a > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40vw;
-}
-
-.upcoming-events{
-  height: 80vh;
 }
 
 .upcoming-events > a > img {
