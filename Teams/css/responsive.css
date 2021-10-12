@@ -1,0 +1,18 @@
+@media screen and (max-width: 450px){
+    html{
+        font-size: 4px;
+    }
+    
+    .links {
+        margin-bottom: 0vh;
+    }
+    
+    .links li a{
+        height: 2em;
+    }
+    
+    .links li a:hover{
+        transform: translateY(0);
+        color: black;
+    }
+}
