@@ -66,37 +66,43 @@ padding-left: 360px;
   width: 46vw;
 }
 
-.list{
-  margin-bottom: 1vh;
-}
-
-.list ul{
-  display: flex;
-  list-style: none;
-}
-
-.list ul li a{
-  color: black;
-  display: inline-block;
-  background: white;
-  border-radius: 40em;
-  width: 12vw;
-  height: 6vh;
-  margin: 0px 1vw;
-  text-align: center;
-  padding-top: 0.9vh;
-  text-decoration: none;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: black;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 .list ul li a:hover{
   background-color: gray;
 }
 
-/* footer */
+/* footer*/
+.list{
+    margin-bottom: 1vh;
+}
+
+.list li{
+    list-style: none;
+    display: inline-block;
+}
+
+.list li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 40em;
+    width: 10vw;
+    min-width: 5.4em;
+    height: 6vh;
+    margin: 0px 1vw;
+    text-align: center;
+    /* padding-top: 0.9vh; */
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list li a:hover{
+    transform: translateY(-0.3em);
+    color: black;
+}
+
 
 .heading-contact{
   margin: auto;
