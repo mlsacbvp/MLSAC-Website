@@ -12,9 +12,9 @@ let animationPopup2 = () => {
 }
 
 function leave1(){
-    about.style.bottom = "-50vh";
+    about.style.bottom = "-100vh";
 }
 
 function leave2(){
-    events.style.bottom = "-50vh";
+    events.style.bottom = "-100vh";
 }
