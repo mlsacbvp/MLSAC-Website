@@ -126,23 +126,28 @@ body {
   background-color: #50E6FF;
 }
 .about-us > a > img {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 40vw;
+  width: 50vw;
+  height: 34vw;
 }
 
 .upcoming-events > a > img {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 35vw;
+  width: 50vw;
+  height: 34vw;
 }
 
 button {
+  margin: 0;
+  position: absolute;
   align-items: center;
+  top: 70vh;
   padding: 1.2vw;
-  width: 18vw;
+  width: 100vh;
   font-family: 'Segoe UI Regular';   
   font-size: 2.2vh;
   color: white;
