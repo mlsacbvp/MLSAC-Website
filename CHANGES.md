@@ -1,5 +1,6 @@
-1. organised the files data structure. 
-navigating through diffferent files is now easier and diff files are allocated respective folder.
-respective changes are made accordingly.
+1. changed navbar of Teams page in accordance with other pages
 
-2. linked teams page and events page with the rest of the pages
+2. changed the overall look teams page in accordance with the finalised design.
+
+3. changed the footer of the teams page
+
