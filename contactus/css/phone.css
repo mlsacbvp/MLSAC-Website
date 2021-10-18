@@ -10,6 +10,10 @@
         font-size: 4px;
     }
     
+    .header{
+        height: 7vh;
+    }
+
     .links {
         margin-bottom: 0vh;
     }
