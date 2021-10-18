@@ -9,6 +9,7 @@
     
     .links li a{
         height: 2em;
+        font-size: 2.1em;
     }
     
     .links li a:hover{
