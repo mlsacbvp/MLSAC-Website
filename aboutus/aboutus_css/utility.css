@@ -57,6 +57,14 @@
         color: black;
     }
 
+    .header{
+        height: 7vh;
+    }
+
+    .about{
+        height: 93vh;
+    }
+
     .heading {
         margin-top: 2vh;
         font-size: 10em;
@@ -77,7 +85,7 @@
     }
 
     .cards {
-        margin-top: 9vh;
+        margin-top: 3vh;
     }
 
     .card {
