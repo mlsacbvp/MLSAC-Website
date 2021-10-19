@@ -10,12 +10,17 @@
         font-size: 4px;
     }
     
+    .header{
+        height: 7vh;
+    }
+
     .links {
         margin-bottom: 0vh;
     }
     
     .links li a{
         height: 2em;
+        font-size: 2.1em;
     }
     
     .links li a:hover{
