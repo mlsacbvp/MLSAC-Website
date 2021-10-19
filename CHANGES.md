@@ -4,3 +4,6 @@
 
 3. changed the footer of the teams page
 
+4. fixed the exec images
+
+5. changed the footer text
