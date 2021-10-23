@@ -11,10 +11,48 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/91243b6074.js" crossorigin="anonymous"></script>
     <style>
       .carousel-item {
-        min-height: 280px;
+        min-height: 180px;
       }
+      
+     .images img{ 
+      display: inline-block;
+      width: -100px;
+      height: 100px;
+      margin-left: 20px;
+    }
+
+    .text{
+      font-size: 2rem;
+      margin: 0 25px 0 25px;
+    }
+
+    .fac-socials img{
+      display: inline-block;
+    }
+    .fac-socials img: hover{
+      box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+
+    }
+    .fab{
+         font-size: 3rem;
+         margin: 0 10px 0 10px;
+    }
+
+    .stud-pic:hover{
+      box-shadow: 0px 0px 10px 5px lightpink;
+    }
+    .handles i{
+      color: whitesmoke;
+
+    }
+
+    .handles a i:hover{
+       color: skyblue;
+
+    }
     </style>
     <link rel="stylesheet" href="Teams/css/ourteam.css" />
     <link rel="stylesheet" href="Teams/css/utility.css" />
@@ -49,21 +87,22 @@
       <div class="knowUs">
         <img
           src="Teams/assets/knowUS.png"
-          alt="a vector art to show a team of people"
-        />
+          alt="a vector art to show a team of people"/>
       </div>
 
       <div class="space-img">
-        <div class="space">
+        <div class="images space">
           <img
-            src="Teams/assets/space.webp"
-            alt="a photo of an astronaut in space"
-            style="margin-right: 20pt"
-          />
+            src="https://us.123rf.com/450wm/alisarut/alisarut1810/alisarut181000063/110554122-training-of-office-staff-teamwork-concept-and-brainstorming-.jpg?ver=6"
+            alt="a photo of an astronaut in space"/>
         </div>
 
-        <div class="sanddunes">
-          <img src="Teams/assets/mission.PNG" alt="space sand dunes" />
+        <div class="images sanddunes">
+          <img src="https://media.istockphoto.com/vectors/start-up-new-project-concept-vector-id859482486?k=20&m=859482486&s=612x612&w=0&h=2fIktXiInfKJqyjFGBSdbKYvX-D48UowVZZU8KZ-Pdg=" alt="space sand dunes"  />
+        </div>
+
+        <div class="images event">
+          <img src="https://www.pinclipart.com/picdir/middle/231-2313098_asana-events-find-us-in-person-planning-clipart.png" alt="event"/>
         </div>
       </div>
 
@@ -88,9 +127,9 @@
           <section class="countdown-section">
         <div class="container">
             <div class="row justify-content-center big-countdown" data-countdown="02/27/2020 02:51:00">
-                <div class="col-6 col-sm-3"><span class="number-days">71+</span><span class="txt-countdown">Members</span></div>
-                <div class="col-6 col-sm-3"><span class="number-hours">2020</span><span class="txt-countdown">Year Launched</span></div>
-                <div class="col-6 col-sm-3"><span class="number-minutes">10+</span><span class="txt-countdown">Events</span></div>
+                <div class="text col-6 col-sm-3"><span class="number-days">71+</span><span class="txt-countdown">Members</span></div>
+                <div class="text col-6 col-sm-3"><span class="number-hours">2020</span><span class="txt-countdown">Year Launched</span></div>
+                <div class="text col-6 col-sm-3"><span class="number-minutes">10+</span><span class="txt-countdown">Events</span></div>
             </div>
         </div>
     </section>
@@ -112,11 +151,9 @@
         </div>
         <div class="fac-socials">
           <a href="#"
-            ><img src="Teams/assets/linkedin.png" alt="linkedIn logo"
-          /></a>
+            ><i class="fab fa-linkedin" style="user-select: auto;"></i></a>
           <a href="#"
-            ><img src="Teams/assets/twitter.png" alt="Twitter logo"
-          /></a>
+            ><i class="fab fa-twitter" style="user-select: auto;"></i></a>
         </div>
       </div>
 
@@ -388,24 +425,20 @@
       <div class="socials">
         <div class="handles">
           <a href="https://www.instagram.com/mlsac_bvcoe/"
-            ><img src="aboutus/aboutus_assets/instagram.png" alt="insta logo"
-          /></a>
+            ><i class="fab fa-instagram-square" style="user-select: auto;"></i></a>
         </div>
         <div class="handles">
           <a href="https://github.com/mlsacbvp"
-            ><img src="aboutus/aboutus_assets/github.png" alt="github logo"
-          /></a>
+            ><i class="fab fa-github" style="user-select: auto;"></i></a>
         </div>
         <div class="handles">
           <a href="https://twitter.com/MlscBvp?t=ueaZK33_AhBI93rNVCT6vQ&s=09"
-            ><img src="aboutus/aboutus_assets/twitter.png" alt="twitter logo"
-          /></a>
+            ><i class="fab fa-twitter" style="user-select: auto;"></i></a>
         </div>
         <div class="handles">
           <a
             href="https://www.linkedin.com/company/microsoft-learn-student-chapter-mlsc-bvp/"
-            ><img src="aboutus/aboutus_assets/linkedin.png" alt="linkedin logo"
-          /></a>
+            ><i class="fab fa-linkedin" style="user-select: auto;"></i></a>
         </div>
       </div>
 
