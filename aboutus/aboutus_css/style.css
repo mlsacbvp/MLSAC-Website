@@ -73,8 +73,7 @@ html{
 }
 
 .about-img img {
-    width: 77%;
-    height: 113vh;
+    width: 67%;
     margin: auto;
     display: block;
 }
@@ -116,6 +115,7 @@ html{
     flex-direction: row;
     padding: 4em;
     margin: 3em 0;
+    margin-bottom: 1.5em;
     padding-top: 2em;
 }
 
