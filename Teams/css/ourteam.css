@@ -14,6 +14,8 @@ html{
   font-size: 10px;
 }
 
+/* Navbar Styling */
+
 .header{
   display: flex;
   justify-content: space-between;
@@ -60,6 +62,8 @@ html{
   color: black;
 }
 
+/* know us section styling */
+
 .heading-main{
   padding-top: 1.1em;
   font-size: 7em;
@@ -82,8 +86,8 @@ html{
 }
 
 .space-img{
-  margin-top: 6em;
-  padding-bottom: 3em;
+  margin: 6em 0;
+  /* padding-bottom: 3em; */
   display: flex;
   justify-content: center;
 }
@@ -100,14 +104,31 @@ html{
   display: block;
 }
 
-.info-space{
-  font-size: 2.2em;
-  text-align: center;
+.sanddunes img{
+  width: 49vw;
+  height: 36vh;
+  border-radius: 6em;
+}
+
+/* Statistics Styling */
+
+.info-mission{
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, #114357 , #2980b9);
+  color: white;
+  padding: 1.4em 0;
+}
+
+.year,.events-num,.info-space{
   display: flex;
   flex-direction: column;
-  color: #4285F4;
-  font-weight: 700;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3em;
 }
+
+/* faculty Mentor Styling */
 
 .family{
   text-align: center;
@@ -115,25 +136,6 @@ html{
   font-size: 4em;
   font-weight: 700;
   padding: 2em 0;
-}
-
-.sanddunes img{
-  width: 49vw;
-  height: 36vh;
-  border-radius: 6em;
-}
-
-.info-mission{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.year,.events-num{
-  display: flex;
-  flex-direction: column;
-  font-weight: 700;
-  text-align: center;
-  font-size: 2.2em;
 }
 
 .faculty{
@@ -195,6 +197,8 @@ html{
   font-size: 2.5em;
 }
 
+/* student mentor styling */
+
 .mentor{
   font-size: 4em;
   font-weight: 700;
@@ -248,6 +252,8 @@ html{
   color: #4285F4;
 }
 
+/* team members styling */
+
 .team-name{
   background: none;
   padding-top: 0.5em;
@@ -288,17 +294,20 @@ html{
   text-align: center;
 }
 
+/* styling for footer section */
+
+.socials i{
+  color: white;
+  font-size: 4.2rem;
+}
+
 .socials{
   display: flex;
   width: 16vw;
   margin: 7vh auto 0 auto;
   justify-content: space-between;
   align-items: center;
-}
-
-.socials a img{
-  width: 4.2em;
-  height: 4.2em;
+  height: 30px;
 }
 
 .footer{
@@ -316,6 +325,8 @@ html{
   padding-top: 4em;
   background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
 }
+
+/* old styling */
 
 .container1{
     padding-top: 30px;
