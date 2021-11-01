@@ -1,9 +1,3 @@
-1. changed navbar of Teams page in accordance with other pages
-
-2. changed the overall look teams page in accordance with the finalised design.
-
-3. changed the footer of the teams page
-
-4. fixed the exec images
-
-5. changed the footer text
+1. changed footer of contact us page to make it uniform with other pages.
+2. visual changes on teams page. added info bar gradient bg.
+3. on about us pages, the grid cards now have equal spaces between them

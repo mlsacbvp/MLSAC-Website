@@ -68,12 +68,12 @@ html{
 .heading{
     font-size: 7em;
     text-align: center;
-    margin-top: -1vh;
+    /* margin-top: -1vh; */
     font-weight: 700;
 }
 
 .about-img img {
-    width: 67%;
+    width: 50%;
     margin: auto;
     display: block;
 }
@@ -106,7 +106,7 @@ html{
 }
 
 .card{
-    width: 94vw;
+    width: 90vw;
     background: #00006A;
     border-radius: 3.7em;
     display: flex;
@@ -114,9 +114,12 @@ html{
     align-items: center;
     flex-direction: row;
     padding: 4em;
-    margin: 3em 0;
-    margin-bottom: 1.5em;
+    margin-top: 5vw;
     padding-top: 2em;
+}
+
+.vis{
+    margin-bottom: 5vw;
 }
 
 .vis-text{
