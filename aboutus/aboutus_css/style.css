@@ -20,7 +20,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 17vh;
+    height: 18vh;
     position: sticky;
     top:0px; /* this is needed for 'sticky' value to work accordingly */
     z-index: 2;

@@ -1,29 +1,16 @@
-*,
-*::after,
-*::before
-{
-    margin: 0;
-    padding: 0;
-
-}
-
-html{
-    font-size: 62.5%;
-}
-
-body{
-    font-family: 'Segoe UI ', 'Open Sans', sans-serif;
-    background-color: #203A61;
-}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 18vh;
+    position: sticky;
+    top:0px; /* this is needed for 'sticky' value to work accordingly */
+    z-index: 2;
+    background: #203A61;
 }
 
 .logo img{
     width: 46vw;
-    /* height: 21vh; */
 }
 
 .links{
@@ -46,7 +33,6 @@ body{
     height: 7vh;
     margin: 0px 1vw;
     text-align: center;
-    /* padding-top: 0.9vh; */
     text-decoration: none;
     font-size: 2.5em;
     font-weight: bold;

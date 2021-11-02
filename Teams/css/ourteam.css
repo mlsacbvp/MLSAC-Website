@@ -20,7 +20,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 17vh;
+  height: 18vh;
   position: sticky;
   top:0px; /* this is needed for 'sticky' value to work accordingly */
   z-index: 2;
@@ -139,25 +139,23 @@ html{
 }
 
 .faculty{
-  font-size: 3.5em;
-  font-weight: 700;
+  font-size: 4em;
+  font-weight: 600;
   background: white;
-  /* padding-left: 1em; */
-  padding-bottom: 1.2em;
+  padding-bottom: 1em;
   text-align: center;
 }
 
 .fac-mentor{
   display: flex;
   background: white;
-  padding-top: 2em;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .fac-photo{
   display: flex;
   flex-direction: column;
-  margin-left: 2em;
+  margin-left: 7em;
 }
 
 .fac-face img{
@@ -186,7 +184,7 @@ html{
 }
 
 .fac-name{
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 700;
   text-align: center;
   padding: 1em 0;
@@ -201,10 +199,11 @@ html{
 
 .mentor{
   font-size: 4em;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   background: white;
-  padding-bottom: 1em;
+  padding: 1em 0;
+
 }
 
 .stud-mentor{
@@ -266,9 +265,9 @@ html{
 }
 
 .exec{
-  margin: 2em 5em;
+  margin: 2em 2em;
   height: 33em;
-  width: 23vw;
+  width: 21vw;
 }
 
 .exec-pic{

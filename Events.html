@@ -11,24 +11,25 @@
   <link rel="stylesheet" href="events/css/slides.css">
   <link rel="stylesheet" href="events/css/utility.css">
   <link rel="stylesheet" href="events/css/footer.css">
+  <link rel="stylesheet" href="events/css/style.css">
   <title>Events</title>
 </head>
 
 <body>
-              <navbar>
-                <div class="header">
-                    <div class="logo">
-                        <a href="index.html"><img src="aboutus/aboutus_assets/MLSCLogo.png" alt="MLSC Logo"></a>
-                    </div>
-                    <div class="links">
-                        <ul>
-                            <li><a href="aboutus.html" class="black-text">About</a></li>
-                            <li><a href="ourteam.html" class="black-text">Team</a></li>
-                            <li><a href="contactus.html" class="black-text">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </navbar>
+  <navbar>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="aboutus/aboutus_assets/MLSCLogo.png" alt="MLSC Logo"></a>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="aboutus.html" class="black-text">About</a></li>
+                <li><a href="ourteam.html" class="black-text">Team</a></li>
+                <li><a href="contactus.html" class="black-text">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+  </navbar>
 
   <div class="landing-page">
     <img src="events/assets/calender.png" class="calender" />
@@ -45,65 +46,47 @@
       <a href="events/Seperate-event-page.html">
         <div class="card">
           <h3 class="title">Hacktober Fest 2021</h3>
+
           <div class="bar">
             <div class="emptybar"></div>
             <div class="filledbar"></div>
           </div>
+          
           <div class="event-poster">
             <img src="events/assets/mlsc hackotber poster.png" class="recent-event 1" />
           </div>
+
         </div>
       </a>
-      <!-- <div class="section-change"></div>   -->
     </div>
   </section>
-  <!-- <a href="#" >
-          <div class="card">
-            <h3 class="title">BVEST 2021</h3>
-            <div class="bar">
-              <div class="emptybar"></div>
-              <div class="filledbar"></div>
-            </div>
-            <div class="event-poster">
-              <img src="events/assets/mlsc hackotber poster.png" class="recent-event 2"/>           
-            </div>
-          </div>
-        </a>   -->
-
-
-  <!-- <div class="section-change"></div> -->
 
   <section class="past-events events">
-    <div class="heading">
-      <h2 class="past-heading">
+      <h2 class="past-heading heading">
         Past Events
       </h2>
-    </div>
+
     <div class="past-container">
       <div class="arrows">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="prev" id="prev">&#10094;</a>
+
         <div class="past-card">
           <div class="past-event-poster">
-            <figure>
               <img src="events/assets/Emojify.jpeg" class="past-photo" />
               <h3 class="past-title">Emojify</h3>
               <figcaption>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, fuga? Tempore blanditiis enim
-                consequuntur, consectetur iste commodi modi? Dicta voluptatem laudantium fuga, at iusto explicabo.
+                An Emoji Designing Competition giving a platform to the participants to express their emotions in a way which has never been done before.
               </figcaption>
-            </figure>
           </div>
         </div>
 
         <div class="past-card">
           <div class="past-event-poster">
-            <figure>
-              <img src="events/assets/Sharks's Capital.jpeg" class="past-photo" />
+              <img src="events/assets/Sharks's Capital.jpeg" class="past-photo" />              
               <h3 class="past-title">Shark's Capital</h3>
               <figcaption>
-                2
+                Shark's Capital was a business pitching Competition, wherein participants where assigned a company and their goal was to pitch that company to the sharks and bag a funding for themselves.
               </figcaption>
-            </figure>
           </div>
         </div>
 
@@ -112,7 +95,7 @@
             <img src="events/assets/AZURE-PYDAY.png" class="past-photo" />
             <h3 class="past-title">Azure Pyday</h3>
             <figcaption>
-              3
+              An Interactive Session of Microsoft's Azure was organised wherein particpants were made aware of the capabilities of Azure and given some free Azure Credits to get them Started.
             </figcaption>
           </div>
         </div>
@@ -122,7 +105,7 @@
             <img src="events/assets/Access-a-thon.png" class="past-photo" />
             <h3 class="past-title">Acces-A-Thon</h3>
             <figcaption>
-              4
+              Under BVP-MLSAC Flagship event Effigo, an ideathon was organised to give the budding idealists a stage to showcase their vision, forging dreams into realities.
             </figcaption>
           </div>
         </div>
@@ -132,7 +115,7 @@
             <img src="events/assets/machine-learning.jpg" class="past-photo" />
             <h3 class="past-title">ML Bootcamp</h3>
             <figcaption>
-              5
+              to get the locked-down freshers started with their journey, a bootcamp on Machine Learning was organised to get them started with the field. various hands on projects were discussed to establish a better grip on the topic.
             </figcaption>
           </div>
         </div>
@@ -142,84 +125,43 @@
             <img src="events/assets/python-monday.jpg" class="past-photo" />
             <h3 class="past-title">Python Monday's</h3>
             <figcaption>
-              6
+              A weekly sesssion on Python basics to guide the new ones about the ever growing language - Python.
             </figcaption>
           </div>
         </div>
 
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="next" id="next">&#10095;</a>
       </div>
-
-    </div>
 
     </div>
   </section>
-  <footer>
-    <div class="bottom">
-      <contact>
-        <div class="heading-contact white-text">CONTACT US</div>
-        <div class="contactus">
-          <div class="item">
-            <div class="icon">
-              <img src="events/assets/map.png" alt="">
-            </div>
-            <div class="icon-name white-text">
-              <p>
-                A-4, Paschim Vihar, New Delhi 110063<br>
-                (In front of Paschim Vihar East Metro Station)
-              </p>
-            </div>
-          </div>
 
-          <div class="item">
-            <div class="icon">
-              <img src="events/assets/outlook.png" alt="">
-            </div>
-            <div class="icon-name white-text">
-              <p>mlscbvp@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="icon telephone">
-              <img src="events/assets/telephone.png" alt="">
-            </div>
-            <div class="icon-name white-text">
-              <p>011-25278444/25278443</p>
-            </div>
-          </div>
-        </div>
-      </contact>
-
-      <div class="socials">
+  <div class="bottom">
+    <div class="socials">
         <div class="handles">
-          <a href="https://www.instagram.com/mlsac_bvcoe/"><img src="events/assets/instagram.png" alt="insta logo"></a>
+            <a href="https://www.instagram.com/mlsac_bvcoe/"><img src="aboutus/aboutus_assets/instagram.png" alt="insta logo"></a>
         </div>
         <div class="handles">
-          <a href="https://github.com/mlsacbvp"><img src="events/assets/github.png" alt="github logo"></a>
+            <a href="https://github.com/mlsacbvp"><img src="aboutus/aboutus_assets/github.png" alt="github logo"></a>
         </div>
         <div class="handles">
-          <a href="https://twitter.com/MlscBvp?t=ueaZK33_AhBI93rNVCT6vQ&s=09"><img src="events/assets/twitter.png"
-              alt="twitter logo"></a>
+            <a href="https://twitter.com/MlscBvp?t=ueaZK33_AhBI93rNVCT6vQ&s=09"><img src="aboutus/aboutus_assets/twitter.png" alt="twitter logo"></a>
         </div>
         <div class="handles">
-          <a href="https://www.linkedin.com/company/microsoft-learn-student-chapter-mlsc-bvp/"><img
-              src="events/assets/linkedin.png" alt="linkedin logo"></a>
+            <a href="https://www.linkedin.com/company/microsoft-learn-student-chapter-mlsc-bvp/"><img src="aboutus/aboutus_assets/linkedin.png" alt="linkedin logo"></a>
         </div>
-      </div>
+    </div>
 
-      <div class="footer">
+    <footer class="footer">
         <span class="white-text">
-          &copy;MLSACBVP All Rights Reserved.
+            &copy;MLSACBVP All Rights Reserved.
         </span>
         <br>
         <span class="white-text">
             Designed & Developed with ❤️ by the Web Team of MLSACBVP
         </span>
-      </div>
-    </div>
-  </footer>
-
+    </footer>
+  </div>
 
   <script src="events/scripts/past-events.js"></script>
 </body>
