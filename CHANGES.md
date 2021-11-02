@@ -1,3 +1,4 @@
-1. changed footer of contact us page to make it uniform with other pages.
-2. visual changes on teams page. added info bar gradient bg.
-3. on about us pages, the grid cards now have equal spaces between them
+1. made some changes to navbar. inreased its height.
+2. minor UI changes in teams page
+3. added details on Events page.
+4. fixed the events page slider

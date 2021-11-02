@@ -1,63 +1,14 @@
-.heading-contact{
-    margin: auto;
-    font-size: 5em;
-    width: fit-content;
-    margin-top: 20vh;
-    position: relative;
-
-}
-
-.heading-contact::after{
-    content: "";
-    width: 50%;
-    height: 0.6vh;
-    background: white;
-    position: absolute;
-    bottom: -1.8vh;
-    left: 25%;
-    border-radius: 20px;
-}
-
-.contactus{
-    display: flex;
-    justify-content: space-between;
-    width: 66vw;
-    margin: auto;
-    margin-top: 9vh;
-}
-
-.item{
-    display: flex;
-    flex-direction: column;
-    width: 31%;
-    align-items: center;
-}
-
-.icon img{
-    width: 5em;
-    height: 5em;
-    margin-bottom: 2.5vh;
-}
-
-.telephone img{
-    transform: rotate(-54.63deg);
-}
-
-.icon-name{
-    font-size: 1.4em;
-}
-
 .socials{
     display: flex;
     width: 16vw;
-    margin: 5vh auto 0 auto;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
 }
 
 .socials a img{
-    width: 3em;
-    height: 3em;
+    width: 4.2em;
+    height: 4.2em;
 }
 
 .footer{
@@ -65,19 +16,18 @@
     width: fit-content;
     margin: 2em auto 0 auto;
     padding-bottom: 2em;
-    
 }
 
 .footer span{
     font-size: 1.3em;
-    color: white;
-    
-}
-.white-text{
-    color:white;
 }
 
-footer{
-    background: linear-gradient(180deg, rgba(92, 45, 145, 0.2) 0%, #0E0E0E 80.21%);
-    zoom: 0.75;    
+.bottom{
+    background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
+    font-size: 10px;
+    padding-top: 5em;
+}
+
+.white-text{
+    color:white;
 }

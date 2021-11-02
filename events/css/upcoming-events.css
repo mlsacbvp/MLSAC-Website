@@ -13,16 +13,19 @@
   height: 8vh;
   padding: 9vh 0vw 5vh;
 }
+
 h2{
   font-size: 5rem;
   color: white;
   font-weight: normal;
 }
+
 .events{
   /* display: flex; */
   /* padding: 13vh; */
   justify-content: center;
 }
+
 .container{
   display: flex;
   flex-direction: row;
@@ -30,6 +33,7 @@ h2{
   padding: 3rem 0rem 9rem ;
   /* margin: 13vh; */
 }
+
 .card {
   display: flex;
   height: 50rem;
