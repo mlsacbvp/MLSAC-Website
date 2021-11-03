@@ -142,23 +142,23 @@ body {
   height: 45vh; 
   transition: all 0.5s ease-in;
 }
- .about-us > a > img {
+.aboutIMG {
   padding-left: 6vh;
   width: 50vw; 
   margin-top: -18vh;
 }
-.about-us > a > button {
+.aboutKNOW {
   margin-left: 25vw;
   margin-top: 0.66vh;
 } 
 .upcoming-events{
   height: 45vh ;
 }
-.upcoming-events > a > img {
+.eventIMG{
 
   width: 89vw; 
 } 
-.upcoming-events > a > button {
+.EventKNOW {
   margin-left: 36vw;
   margin-top: 0.66vh;
 }
