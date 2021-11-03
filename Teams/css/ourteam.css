@@ -1,0 +1,488 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #203A61;
+  font-family: 'Segoe UI Regular';
+  font-weight: normal;
+}
+
+html{
+  font-size: 10px;
+}
+
+/* Navbar Styling */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 18vh;
+  position: sticky;
+  top:0px; /* this is needed for 'sticky' value to work accordingly */
+  z-index: 2;
+  background: #203A61;
+}
+
+.logo img{
+  width: 46vw;
+}
+
+.links{
+  margin-bottom: 1vh;
+}
+
+.links li{
+  list-style: none;
+  display: inline-block;
+}
+
+.links li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 40em;
+  width: 12vw;
+  min-width: 5.4em;
+  height: 7vh;
+  margin: 0px 1vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: bold;
+  transition: transform 0.1s ease-in; 
+}
+
+.links li a:hover{
+  transform: translateY(-0.3em);
+  color: black;
+}
+
+/* know us section styling */
+
+.heading-main{
+  padding-top: 1.1em;
+  font-size: 7em;
+  font-weight: 700;
+  text-align: center;
+  color: #2D2D83;
+  display: block;
+}
+
+.know{
+  background: white;
+  height: auto;
+}
+
+.knowUs img{
+  width: 100%;
+  height: 60vh;
+  margin: auto;
+  display: block;
+}
+
+.space-img{
+  margin: 6em 0;
+  /* padding-bottom: 3em; */
+  display: flex;
+  justify-content: center;
+}
+
+.space{
+  margin-right: 13em;
+}
+
+.space img{
+  width: 20vw;
+  height: 36vh;
+  border-radius: 6em;
+  box-shadow: -0.7em 0 0 0 #C4C4C4;
+  display: block;
+}
+
+.sanddunes img{
+  width: 49vw;
+  height: 36vh;
+  border-radius: 6em;
+}
+
+/* Statistics Styling */
+
+.info-mission{
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, #114357 , #2980b9);
+  color: white;
+  padding: 1.4em 0;
+}
+
+.year,.events-num,.info-space{
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3em;
+}
+
+/* faculty Mentor Styling */
+
+.family{
+  text-align: center;
+  background: white;
+  font-size: 4em;
+  font-weight: 700;
+  padding: 2em 0;
+}
+
+.faculty{
+  font-size: 4em;
+  font-weight: 600;
+  background: white;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.fac-mentor{
+  display: flex;
+  background: white;
+  align-items: center;
+}
+
+.fac-photo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 7em;
+}
+
+.fac-face img{
+  width: 21vw;
+  height: 22vw;
+  border-radius: 21vw;
+}
+
+.fac-socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.fac-socials a img{
+  width: 3.5em;
+  height: 3.5em;
+  margin-right: 1.5em;
+}
+
+.fac-desc{
+  width: 60%;
+  margin: 0 auto;
+  padding-right: 4em;
+}
+
+.fac-name{
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.fac-info{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+/* student mentor styling */
+
+.mentor{
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  background: white;
+  padding: 1em 0;
+
+}
+
+.stud-mentor{
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+.stud{
+  width: 25vw;
+  height: 40vh;
+  margin: 1em 5em;
+}
+
+.stud-pic{
+  height: 19em;
+  width: 18em;
+  border-radius: 18em;
+  background: white;
+  margin: auto;
+}
+
+.stud-pic img{
+  height: 19em;
+  width: 18em;
+  border-radius: 18em;
+  margin: auto;
+}
+
+.stud-name{
+  margin-top: em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+  color: #203A61;
+  
+}
+
+.stud-quote{
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 700;
+  color: #4285F4;
+}
+
+/* team members styling */
+
+.team-name{
+  background: none;
+  padding-top: 0.5em;
+  font-size: 4.5em;
+}
+
+.stud-team{
+  background: none;
+  padding-bottom: 0;
+}
+
+.exec{
+  margin: 2em 2em;
+  height: 33em;
+  width: 21vw;
+}
+
+.exec-pic{
+  border-radius: 0;
+  height: 25em;
+  width: 20em;
+  margin: auto;
+  background: white;
+}
+
+.exec-pic img{
+  border-radius: 0;
+  height: 25em;
+  width: 20em;
+  object-fit: cover;
+}
+
+.exec-name,.exec-title {
+  color: white;
+}
+
+.exec-title{
+  text-align: center;
+}
+
+/* styling for footer section */
+
+.socials i{
+  color: white;
+  font-size: 4.2rem;
+}
+
+.socials{
+  display: flex;
+  width: 16vw;
+  margin: 7vh auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.footer{
+  text-align: center;
+  width: fit-content;
+  margin: 2em auto 0 auto;
+  padding-bottom: 2em;
+}
+
+.footer span{
+  font-size: 1.3em;
+}
+
+.bottom{
+  padding-top: 4em;
+  background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
+}
+
+/* old styling */
+
+.container1{
+    padding-top: 30px;
+    
+}
+
+.member{
+    clip-path: circle();
+}
+.item1{
+padding-left: 360px;
+}
+.item2{
+  padding-left: 85px;
+  padding-top: 30px;
+
+}
+
+.item4{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.item5{
+  padding-left: 130px;
+  
+}
+.item7{
+ padding-left: 400px;
+ 
+}
+.item8{
+  padding-left: 60px;
+  padding-right: 0px;
+}
+.studentmentor{
+  padding-left: 85px;
+  padding-top: 30px;
+
+}
+.container4{
+  padding-left: 125px;
+}
+.container7{
+  padding-left: 370px;
+}
+.item9{
+ padding-left: 25px;
+}
+.item10{
+ padding-top: -1000px;
+ padding-left: 550px;
+}
+
+/* navbar */
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo{
+  width: 46vw;
+}
+
+.list ul li a:hover{
+  background-color: gray;
+}
+
+/* footer*/
+.list{
+    margin-bottom: 1vh;
+}
+
+.list li{
+    list-style: none;
+    display: inline-block;
+}
+
+.list li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 40em;
+    width: 10vw;
+    min-width: 5.4em;
+    height: 6vh;
+    margin: 0px 1vw;
+    text-align: center;
+    /* padding-top: 0.9vh; */
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list li a:hover{
+    transform: translateY(-0.3em);
+    color: black;
+}
+
+
+.heading-contact{
+  margin: auto;
+  font-size: 5em;
+  width: fit-content;
+  margin-top: 20vh;
+  position: relative;
+}
+
+.heading-contact::after{
+  content: "";
+  width: 50%;
+  height: 0.6vh;
+  background: white;
+  position: absolute;
+  bottom: -1.8vh;
+  left: 25%;
+}
+
+.contactus{
+  display: flex;
+  justify-content: space-between;
+  width: 66vw;
+  margin: auto;
+  margin-top: 9vh;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  align-items: center;
+}
+
+.icon img{
+  width: 7em;
+  height: 7em;
+  margin-bottom: 2.5vh;
+}
+
+.quesbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faqHead{
+  margin-top: 10vh;
+  font-size: 5em;
+}
+
+.answer{
+  padding: .375rem .75rem;
+  padding-left: 1em;
+  min-height: 12vh;
+  background: #c8cdd5;
+
+}

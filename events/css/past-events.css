@@ -1,0 +1,64 @@
+/* Styling for heading */
+
+.past-heading{
+  color: black;  
+  font-weight: 600;
+} 
+ 
+/* Styling of main container */
+
+.past-events{
+  background-color: white;
+}
+
+.past-container{
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  padding-top: 0;
+}
+
+/* Styling of individual events cards */
+
+.past-card {
+  height: 50rem;
+  padding: 0px 4rem;
+  transition: display 1s ease-in;
+}
+
+.past-event-poster{
+  width: min-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.past-photo{
+  height: 34rem;
+  width: 25rem;
+  box-shadow: -1rem -0.6rem 2rem rgba(47,47,47, 0.5);
+  transition: 0.3s ease;
+}
+
+.past-photo img{
+  margin: auto;
+  object-fit: cover;
+}
+
+.past-card:hover .past-photo{
+  transform: scale(1.1);
+}
+
+.past-title {
+  color: black;
+  font-size: 2.8rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+figcaption{
+  text-align: center;
+  color: black;
+  font-size: 1.4rem;
+} 

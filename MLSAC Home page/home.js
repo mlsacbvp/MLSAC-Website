@@ -16,5 +16,5 @@ function leave1(){
 }
 
 function leave2(){
-    events.style.bottom = "-50vh";
+    events.style.bottom = "-100vh";
 }

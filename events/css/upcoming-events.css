@@ -1,0 +1,114 @@
+.calender{
+  width: -webkit-fill-available;
+  height: 72vh;
+  /* zoom: 0.8; */
+}
+
+/* heading styling */
+
+.heading{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: flex-end;
+  height: 8vh;
+  padding: 6rem 0;
+  font-size: 6.5em;
+}
+
+.heading h2{
+  font-size: 6.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.events{
+  justify-content: center;
+}
+
+/* events box styling */
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 0rem 0rem 9rem ;
+}
+
+.card {
+  display: flex;
+  height: 50rem;
+  width: 30rem;
+  background-color: #000;
+  border-radius: 10px;
+  /* box-shadow: -1rem 0 3rem rgba(47,47,47, 0.8); */
+  transition: 0.4s ease-out;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-2em);  
+}
+
+.recent-event{
+  padding: 13rem 2.5rem;
+  height: 34rem;
+  width: 25rem;
+  transition: 0.6s ease-out;
+}
+
+.card:hover .recent-event{
+transform: scale(1.1);
+}
+
+.title {
+  color: white;
+  position: absolute;
+  font-size: 2.5rem;
+  padding: 2rem 3rem;
+}
+
+.bar {
+  position: relative;
+  height: 0.5rem;
+  display: flex;
+  width: 12rem;
+  align-items: center;
+  top: 9.3rem;
+  left: 3rem;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(80,230,255,1) 0%, rgba(0,120,212,1) 45%, rgba(36,58,94,1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 17em;
+  transition: 0.4s ease-out;
+}
+
+.section-change{
+  position: absolute;
+  /* top: 109vh;
+  left: 50vw; */
+  margin-right: -50vw;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  border-radius: 5rem;
+  border: 0.2rem solid rgb(255, 255, 255); 
+}
+

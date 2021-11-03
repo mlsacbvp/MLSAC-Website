@@ -82,7 +82,7 @@ body {
 }
 
 .social {
-  zoom: 0.8;
+  zoom: 1.1;
   justify-content: center;
   position: absolute;
   display: flex;
@@ -135,15 +135,19 @@ body {
 
 .about-us,
 .upcoming-events {
-  bottom: -150vh ;
+  bottom: -150vh ; 
   position: absolute;
   width: 50%;
   height: 45vh; 
+  /* position: absolute; */
+  /* top: 47%; */
+
   transition: all 0.5s ease-in;
 }
 .aboutIMG {
   padding-left: 6vh;
-  width: 50vw; 
+  height: 60vh; 
+  width: 90%;
   margin-top: -18vh;
 }
 .aboutKNOW {
@@ -151,10 +155,13 @@ body {
   margin-top: 0.66vh;
 } 
 .upcoming-events{
-  height: 45vh ;
+  height: 50vh ;
 }
 .eventIMG{
- width: 89vw; 
+  height: 60vh; 
+  width: 90%;
+  padding-left: 3vw;
+  right: 0rem;
 } 
 .EventKNOW {
   margin-left: 36vw;
