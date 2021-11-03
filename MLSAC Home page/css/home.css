@@ -46,26 +46,25 @@ body {
   position: absolute;
   background-position: center center;
   background-image: url(../images/background.jpg);
-
   background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
   right: 0px;
   bottom: 0px;
   left: 0px;
-  top: 0px;
-
-  
+  top: 0px;  
 }
+
  .logo-image {
   position: absolute;
   display: flex;
   padding-left: 44%;
   padding-top: 60vh;
-  }  
+}  
+
 .logo-image > img {
   width: 20vw;
 }
+
 .title {
   position: absolute;
   resize: horizontal;
@@ -81,6 +80,7 @@ body {
   margin: 0 auto;
   font-family: 'Segoe UI Regular'; 
 }
+
 .social {
   zoom: 0.8;
   justify-content: center;
@@ -125,7 +125,6 @@ body {
   left: -0.7rem;
   border-radius: 0vw 3vw 3vw 0vw;
 }
-
 .popup {
   display: flex;
   justify-content: space-between;
@@ -155,8 +154,7 @@ body {
   height: 45vh ;
 }
 .eventIMG{
-
-  width: 89vw; 
+ width: 89vw; 
 } 
 .EventKNOW {
   margin-left: 36vw;
