@@ -4,6 +4,7 @@
   padding: 0;
   border-radius: 0;
   font-weight: 400;
+  zoom: 0.9;
 }
 
 @font-face {
@@ -43,39 +44,49 @@ body {
 .main {
   border: 30px solid #203a61;
   position: absolute;
+  background-position: center center;
   background-image: url(../images/background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 95.85vw;
-  height: 92.9vh;
+  background-repeat: no-repeat;  
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px; 
 }
 .logo-image {
   position: absolute;
   display: flex;
-  width: 100vw;
-  padding-left: 42vw;
-  padding-top: 15vw;
-}
+  padding-left: 44%;
+  padding-top: 60vh;
+}  
+
 .logo-image > img {
-  width: 15vw;
+  width: 20vw;
 }
+
 .title {
   position: absolute;
+  resize: horizontal;
   justify-content: center;
   display: flex;
-  width: 100vw;
+  align-items: center;
   font-weight: 600;
   font-size: 3vw;
   color: white;
-  top: 68vh;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   font-family: 'Segoe UI Regular'; 
 }
 .social {
+  zoom: 1.5;
   justify-content: center;
   position: absolute;
   display: flex;
   bottom: 0vh;
-  width: 100vw;
+  right: 50%;
+  left: 50%;
 }
 
 .social > a > img {
@@ -92,38 +103,42 @@ body {
 .About,
 .Events {
   position: absolute;
-  top: 45vh;
+  top: 47%;
+  bottom: 47%;
+  height: fit-content;
   border: 1px solid #203a61;
   background-color: #203a61;
-  border-radius: 3vw;
-  padding: 0.6vw;
+  text-align: center;
+  padding: 3.5vw;
   font-family: 'Segoe UI Regular'; 
 }
 
 .Events {
   position: absolute;
   right: -0.7rem;
+  border-radius: 3vw 0vw 0vw 3vw;
 }
 .About {
   position: absolute;
   left: -0.7rem;
+  border-radius: 0vw 3vw 3vw 0vw;
 }
-
 .popup {
   display: flex;
   justify-content: space-between;
   z-index: 110;
+  height: 100%;
+  color: #203a61;
 }
+
 
 .about-us,
 .upcoming-events {
+  bottom: -150vh ;
   position: absolute;
-  justify-content: center;
-  bottom: -138vh;
   width: 50%;
-  height: 80vh;
-  border: 1px solid #50E6FF;
-  background-color: #50E6FF;
+  height: 45vh; 
+  transition: all 0.5s ease-in;
 }
 .about-us > a > img {
   display: flex;
@@ -140,8 +155,20 @@ body {
   width: 50vw;
   height: 34vw;
 }
-
 button {
+  align-items: center;
+  padding: 1.4vw;
+  width: 40vw;
+  font-family: 'Segoe UI Regular';   
+  font-size: 2.2vh;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 2vh;
+  margin-right: 10vh;
+}
+
+
+/* button {
   margin: 0;
   position: absolute;
   align-items: center;
@@ -153,12 +180,26 @@ button {
   color: white;
   background-color: black;
   border-radius: 2vh;
-}
-.upcoming-events > button {
+} */
+/* .upcoming-events > button {
   margin-right: 20vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10vh;
 }
 .about-us > button {
   margin-left: 20vw;
+  padding-left: 10vw;
   margin-top: 10vh;
 }
+  */
+
+  .upcoming-events > a > button {
+    margin-left: 28vw;
+    margin-top: 0.66vh;
+  }
+  .about-us >a> button {
+    margin-left: 28vw;
+    margin-top: 0.66vh;
+  }
+   
