@@ -34,13 +34,11 @@
 
   <body>
     <div class="main">
-      <div class="logo-image">
-        <img src="MLSAC Home page/images/MLSAC_Logo.png" alt="mlsac logo" />
-      </div>
-
-      <div class="buttons">
-        <div onmouseenter="animationPopup1()" class="About">ABOUT</div>
-        <div class="Events" onmouseenter="animationPopup2()">EVENTS</div>
+      <div class="logo-image"> <video src="MLSAC Home page/images/background.mp4" muted autoplay></video></div>
+      
+     <div class="buttons">
+        <a href="aboutus.html" class="About" ><div> ABOUT </div></a>
+        <a href="Events.html" class="Events"><div> EVENTS </div></a>
       </div>
 
       <div class="title">
@@ -59,24 +57,4 @@
       </div>
     </div>
   </body>
-  <!-- These are popup cards -->
-  <div class="popup">
-    <div onmouseleave="leave1()" class="about-us">
-
-      <a href="aboutus.html"
-        ><img src="MLSAC Home page/images/about-us.png" alt="about us image"
-      /></a>
-      <!--Add the link to about page here in href-->
-      <a href="aboutus.html"><button>Know more...</button></a>
-    </div>
-
-    <div onmouseleave="leave2()" class="upcoming-events">
-      <a href="Events.html"
-        ><img src="MLSAC Home page/images/events.jpg" alt="event image"
-      /></a>
-      <!--Add the link to upcoming event page here in href-->
-      <a href="Events.html"><button>Know more...</button></a>
-    </div>
-  </div>
-  <script src="MLSAC Home page/home.js"></script>
 </html>
