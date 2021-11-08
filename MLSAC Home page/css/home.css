@@ -67,7 +67,6 @@ body {
   border: 30px solid #203a61;
   position: absolute;
   background-position: center center;
-  background-image: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;  
   right: 0px;
@@ -75,7 +74,7 @@ body {
   left: 0px;
   top: 0px; 
 }
-.logo-image {
+/* .logo-image {
   position: absolute;
   display: flex;
   padding-left: 44%;
@@ -84,7 +83,7 @@ body {
 
 .logo-image > img {
   width: 20vw;
-}
+} */
 
 .title {
   position: absolute;
