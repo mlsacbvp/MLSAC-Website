@@ -1,420 +1,61 @@
-* {
-  /* z-index: -1; */
-  zoom: 1;
-  margin: 0;
+*{
   padding: 0;
-  border-radius: 0;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Segoe UI Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI"), url("Segoe UI.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Italic"), url("Segoe UI Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Bold"), url("Segoe UI Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold Italic";
-
-
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Bold Italic"),
-    url("Segoe UI Bold Italic.woff") format("woff");
-}
-
-body {
+  margin: 0;
   overflow: hidden;
-  font-family: "Segoe UI Regular";
 }
 
-.main {
-  border: 30px solid #203a61;
-  position: absolute;
-  /* background-image: url(../images/background.mp4); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 95.85vw;
-  height: 92.9vh;
+.main{
+  display: flex;
+  border: 2rem solid #203a61;
+  padding: 0;
+  margin: 0;
+  width: 95.8vw;
+  height: 92.5vh;
+  /* background-image: url(../assets/widebg.mp4 ); */
 }
-.logo-image {
-  min-width: 100%;
-  min-height: 100%;
+.bg{
+  padding: 0;
+  margin: 0;
 }
-
 video{
-    position:fixed;
-    z-index: -1;
-    
-    /* width: 96.1vw;
-    height: 95vh; */
-}
-
-@media (min-aspect-ratio: 16/9) {
-  video{
-      width:100%;
-      height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  video { 
-      width:auto;
-      height: 100%;
-  }
-}
-@media (max-width: 767px) {
-  video {
-      display: none;
-  }
-  body {
-      background: url('../images/phonebg.mp4');
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100vh;
-  }
-}
-
-.social {
-  justify-content: center;
-  position: absolute;
-  display: flex;
-  bottom: 0vh;
-  width: 100vw;
-}
-
-.social > a > img {
-  width: 3.2vw;
-  padding: 2vw;
-}
-
-.buttons {
-  color: white;
-  font-size: 2.8vw;
-  display: flex;
-}
-
-.About,
-.Events {
-  position: absolute;
-  top: 45vh;
-  border: 1px solid #203a61;
-  background-color: #203a61;
-  border-radius: 3vw;
-  padding: 0.6vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-}
-
-.Events {
-  position: absolute;
-  right: -1.5rem;
-  color: white;
-  text-decoration: none;
-}
-.About {
-  position: absolute;
-  left: -1.5rem;
-  color: white;
-  text-decoration: none;
-}
-
-.popup {
-  display: flex;
-  justify-content: space-between;
-  z-index: 110;
-}
-
-.about-us,
-.upcoming-events {
-  position: absolute;
-  justify-content: center;
-  bottom: -38vh;
-  width: 50%;
-  height: 30vh;
-  border: 1px solid #50E6FF;
-  background-color: #50E6FF;
-  transition: all 0.5s ease-in;
-}
-.about-us > a > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40vw;
-}
-
-.upcoming-events > a > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50vw;
-}
-
-button {
-  align-items: center;
-  padding: 1.2vw;
-  width: 18vw;
-  font-family: 'Segoe UI Regular';   
-  font-size: 2.2vh;
-  color: white;
-  background-color: black;
-  border-radius: 2vh;
-}
-.upcoming-events > button {
-  margin-right: 20vw;
-  margin-top: 10vh;
-}
-.about-us > button {
-  margin-left: 20vw;
-  margin-top: 5vh;
-}
-
-
-
-
-
-
-/* * {
-  z-index: -1;
-  margin: 0;
   padding: 0;
-  border-radius: 0;
-  font-weight: 400;
-  zoom: 0.9;
+  margin: 0;
+  width: 98vw;
+  height: 98vh;
 }
-
-@font-face {
-  font-family: "Segoe UI Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI"), url("Segoe UI.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Italic"), url("Segoe UI Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Bold"), url("Segoe UI Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Bold Italic"),
-    url("Segoe UI Bold Italic.woff") format("woff");
-}
-@media (min-aspect-ratio: 16/9) {
-  video{
-      width:100%;
-      height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  video { 
-      width:auto;
-      height: 100%;
-  }
-}
-@media (max-width: 767px) {
-  video {
-      display: none;
-  }
-  body {
-      background: url('../images/phonebg.mp4');
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100vh;
-  }
-}
-body {
-  overflow: hidden;
-  font-family: "Segoe UI Regular";
-}
-
-.main {
-  border: 30px solid #203a61;
-  position: absolute;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;  
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  top: 0px; 
-}
-/* .logo-image {
-  position: absolute;
+.buttons{
   display: flex;
-  padding-left: 44%;
-  padding-top: 60vh;
-}  
-
-.logo-image > img {
-  width: 20vw;
-} 
-
-.title {
-  position: absolute;
-  resize: horizontal;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  font-size: 3vw;
+  font-size: x-large;
+}
+.buttons > a {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
-  bottom: 20%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  font-family: 'Segoe UI Regular'; 
 }
-.social {
-  zoom: 1.5;
-  justify-content: center;
+.events{
   position: absolute;
-  display: flex;
-  bottom: 0vh;
-  right: 50%;
-  left: 50%;
+  top: 50vh;
+  right: 0;
+  background-color: #203a61;
+  padding: 1em;
+  border-radius: 1rem;
 }
-
+.about{
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  background-color: #203a61;
+  padding: 1em;
+  border-radius: 1rem;
+}
+.social{
+  display: flex;
+  position: absolute;
+  bottom: 5vh;
+  justify-content:space-evenly;
+  width: 100%;
+}
 .social > a > img {
   width: 3.2vw;
   padding: 2vw;
 }
-
-.buttons {
-  color: white;
-  font-size: 2.8vw;
-  display: flex;
-}
-
-.About,
-.Events {
-  position: absolute;
-  top: 47%;
-  bottom: 47%;
-  height: fit-content;
-  border: 1px solid #203a61;
-  background-color: #203a61;
-  text-align: center;
-  padding: 3.5vw;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.Events {
-  position: absolute;
-  right: -0.7rem;
-  border-radius: 3vw 0vw 0vw 3vw;
-  color: white;
-  text-decoration: none;
-}
-.About {
-  position: absolute;
-  left: -0.7rem;
-  border-radius: 0vw 3vw 3vw 0vw;
-  color: white;
-  text-decoration: none;
-}
-.popup {
-  display: flex;
-  justify-content: space-between;
-  z-index: 110;
-  height: 100%;
-  color: #203a61;
-}
-
-
-.about-us,
-.upcoming-events {
-  bottom: -150vh ;
-  position: absolute;
-  width: 50%;
-  height: 45vh; 
-  transition: all 0.5s ease-in;
-}
-.about-us > a > img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50vw;
-  height: 34vw;
-}
-
-.upcoming-events > a > img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50vw;
-  height: 34vw;
-}
-button {
-  align-items: center;
-  padding: 1.4vw;
-  width: 40vw;
-  font-family: 'Segoe UI Regular';   
-  font-size: 2.2vh;
-  color: rgb(255, 255, 255);
-  background-color: black;
-  border-radius: 2vh;
-  margin-right: 10vh;
-}
-
-
- button {
-  margin: 0;
-  position: absolute;
-  align-items: center;
-  top: 70vh;
-  padding: 1.2vw;
-  width: 100vh;
-  font-family: 'Segoe UI Regular';   
-  font-size: 2.2vh;
-  color: white;
-  background-color: black;
-  border-radius: 2vh;
-} */
-/* .upcoming-events > button {
-  margin-right: 20vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10vh;
-}
-.about-us > button {
-  margin-left: 20vw;
-  padding-left: 10vw;
-  margin-top: 10vh;
-}
-  
-
-  .upcoming-events > a > button {
-    margin-left: 28vw;
-    margin-top: 0.66vh;
-  }
-  .about-us >a> button {
-    margin-left: 28vw;
-    margin-top: 0.66vh;
-  }
-   
- */
