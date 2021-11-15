@@ -33,9 +33,9 @@ function slider(){
         slides[i].style.display = "none";
         
         // makes the required slides reappear
-        slides[pos-1].style.display = "block";
+        // slides[pos-1].style.display = "block";
         slides[pos].style.display = "block";
-        slides[pos+1].style.display = "block";
+        // slides[pos+1].style.display = "block";
 
     }  
   }
