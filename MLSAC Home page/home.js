@@ -10,9 +10,10 @@ setTimeout(function(){
 
 Loadvideo.addEventListener("ended", function(){
     // video disappears
-    Loadvideo.style.opacity = "0";
+    // Loadvideo.style.opacity = "0";
+
     // bg of video disappears
-    document.getElementsByClassName("loading")[0].style.display = "none";
+    // document.getElementsByClassName("loading")[0].style.display = "none";
     // headings gets blurred
     document.getElementsByClassName("name")[0].style.animation = "blurme 3s 1";
     document.getElementsByClassName("logo")[0].style.animation = "blurme 3s 1";
