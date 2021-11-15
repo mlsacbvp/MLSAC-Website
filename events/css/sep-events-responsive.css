@@ -1,0 +1,43 @@
+.event-desc{
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster{
+    width: 100%;
+    padding-top: 3vh;
+}
+
+.event-poster{
+    padding-right: 0;
+    width: 80%;
+}
+
+.event-info{
+    width: 100%;
+    padding-top: 3vh;
+}
+
+.event-name{
+    width: 80%;
+    text-align: center;
+}
+
+.event-name h3{
+    font-size: 7.5rem;
+}
+
+pre{
+    line-height: normal;
+    font-size: 3.3rem;
+}
+
+.event-details{
+    width: 80%;
+}
+
+.register{
+    width: 30vw;
+    height: 4vh;
+}

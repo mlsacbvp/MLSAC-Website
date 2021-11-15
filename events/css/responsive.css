@@ -8,6 +8,22 @@
         padding-bottom: 4rem;
     }
 
+    .heading h2{
+        font-size: 7.5rem;
+    }
+
+    .card{
+        zoom:1.2;
+    }
+
+    .past-heading{
+        font-size: 7.5rem;
+    }
+
+    .past-card{
+        zoom:1.2;
+    }
+
     .socials {
         width: 24vw;
         margin-top: 4vw;
@@ -22,5 +38,9 @@
     .socials a img {
         width: 3.2em;
         height: 3.2em;
+    }
+
+    .prev, .next{
+        margin-top: 52px;
     }
 }

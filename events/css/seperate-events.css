@@ -1,8 +1,8 @@
-
 .event-desc{
     display: flex;
     padding: 15vh 11vw 10vh 11vw;
     justify-content: space-around;
+    align-items: flex-start;
 }
 .poster{
     display: flex;
@@ -28,23 +28,23 @@
 }
 
 .event-info h3{
-    font-size: 5.5rem;
+    font-size: 6rem;
     color: white;
     font-weight: 600;
 }
 
 .event-details{
-    padding-top: 2vh;
+    padding-top: 5vh;
     word-spacing: 0.5rem;
     line-height: 2rem;
 }
 pre {
     white-space: pre-wrap;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
+    line-height: normal;
     color: white;
     font-weight: lighter;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    
+    font-family: 'Segoe UI Regular', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif' ;
 }
 
 .register{
@@ -65,7 +65,19 @@ pre {
 }
 
 button{
-    border-radius: 100px;
-    
+    border-radius: 10em;
+    border: none; 
 }
+
+.cta button:hover{
+    transform: scale(1.1);
+    box-shadow: black 0.2em 1em 1.4em;
+}
+
+
+
+
+
+
+
 
