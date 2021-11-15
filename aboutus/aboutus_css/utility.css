@@ -71,6 +71,10 @@
         font-size: 10em;
     }
 
+    .desc{
+        text-align: center;
+    }
+
     .about-img img {
         width: 85%;
         height: 28vh;
@@ -83,6 +87,11 @@
     .desc-1 {
         width: 100%;
         font-size: 2.3em;
+        text-align: left;
+    }
+
+    .desc-2{
+        text-align: right;
     }
 
     .cards {
