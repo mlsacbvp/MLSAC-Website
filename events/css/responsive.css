@@ -1,6 +1,26 @@
 @media screen and (max-width: 450px){
     .past-photo{
         object-fit: cover;
-        
+    }
+    
+    .heading{
+        padding: 0;
+        padding-bottom: 4rem;
+    }
+
+    .socials {
+        width: 24vw;
+        margin-top: 4vw;
+        font-size: 4px;
+    }
+    
+    .icon img {
+        width: 5em;
+        height: 5em;
+    }
+
+    .socials a img {
+        width: 3.2em;
+        height: 3.2em;
     }
 }

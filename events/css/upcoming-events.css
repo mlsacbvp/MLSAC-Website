@@ -1,7 +1,17 @@
-.calender{
-  width: -webkit-fill-available;
-  height: 72vh;
-  /* zoom: 0.8; */
+/* landing img styling */
+.landing-page{
+  width: 100%;
+  height: 54vh;
+  overflow: hidden;
+  background: #f7f7f7;
+}
+
+.landing-page img{
+  display: block;
+  object-fit: contain;
+  margin: auto;
+  width: 100%;
+  height: 100%;
 }
 
 /* heading styling */

@@ -2,20 +2,15 @@
     html {
       font-size: 4px;
     }
-    .landing-page > img{
-        width: 106.5%;
-    }
+    
     .header {
       height: 7vh;
-      width: 106.5%;
     }
 
     .links {
       margin-bottom: 0vh;
     }
-    .bottom{
-      width: 106.5%;
-    }
+
     .links li a {
       height: 2em;
       font-size: 2.1em;
@@ -25,18 +20,18 @@
       transform: translateY(0);
       color: black;
     }
-    .socials{
-      position: absolute;
-      left: 30vw;
-    }
+
     .footer {
-      margin-top: 50px;
+      font-size: 4px;
     }
-    .past-events{
-      width: 106%;
+    
+    .bottom{
+      font-size: 4px;
+      padding-top: 1em;
     }
+
     .handles{
       justify-content: center;
-      padding: 0.8em;
     }
+
   }
