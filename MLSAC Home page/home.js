@@ -1,20 +1,19 @@
-let about = document.getElementsByClassName("about-us")[0]
-let events = document.getElementsByClassName('upcoming-events')[0]
-let abc = document.getElementsByClassName('About')[0]
+let Loadvideo = document.getElementById("loadVideo");
 
-let animationPopup1 = () => {
- about.style.bottom = "50vh";
+if(window.matchMedia("(max-width:450px)").matches){
+    Loadvideo.src="MLSAC Home page/images/phonebg.mp4"
 }
 
-let animationPopup2 = () => {
-    events.style.bottom = "50vh";
-    events.style.right = "0vw";
-}
+setTimeout(function(){
+    Loadvideo.style.animation="blurme 4s 1"
+}, 7900);
 
-function leave1(){
-    about.style.bottom = "-100vh";
-}
-
-function leave2(){
-    events.style.bottom = "-100vh";
-}
+Loadvideo.addEventListener("ended", function(){
+    // video disappears
+    Loadvideo.style.opacity = "0";
+    // bg of video disappears
+    document.getElementsByClassName("loading")[0].style.display = "none";
+    // headings gets blurred
+    document.getElementsByClassName("name")[0].style.animation = "blurme 3s 1";
+    document.getElementsByClassName("logo")[0].style.animation = "blurme 3s 1";
+})

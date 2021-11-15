@@ -1,0 +1,38 @@
+@media screen and (max-width: 450px) {
+    video {
+        object-fit: contain;
+    }
+
+    .main{
+        border: 0.8rem solid #203a61;
+    }
+
+    .logo{
+        width: 67.3%;
+        top: -11.5em;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .about{
+        transform: rotate(90deg);
+        left: -0.9em;
+    }
+
+    .events{
+        transform: rotate(270deg);
+        right: -0.7em;
+    }
+
+    .social a{
+        padding: 0 1.3em;
+    }
+
+    .social a img{
+        width: 8.2vw;
+    }
+
+
+}
