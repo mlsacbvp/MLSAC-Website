@@ -4,7 +4,7 @@ if(window.matchMedia("(max-width:450px)").matches){
     Loadvideo.src="MLSAC Home page/images/phonebg.mp4";
     
     Loadvideo.addEventListener("ended", function(){
-        window.location="../aboutus.html"
+        window.location="aboutus.html"
     })
 }
 
