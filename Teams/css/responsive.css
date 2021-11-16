@@ -20,4 +20,56 @@
         transform: translateY(0);
         color: black;
     }
+    
+    .knowUs img{
+        height: auto;
+    }
+
+    .space img{
+        width: 24vw;
+        height: 13vh;
+    }
+
+    .sanddunes img{
+        height: 13vh;
+        width: 42vw;
+    }
+
+    .family{
+        font-size: 6em;
+        padding: 1.5em 0;
+    }
+
+    .faculty{
+        font-size: 5.5em;
+    }
+
+    .mentor{
+        font-size: 5.5em;
+        padding: 1.5em 0;
+    }
+
+    .stud{
+        width: 23vw;
+        height: 16vh;
+    }
+
+    .carousel{
+        padding-top: 1vh;
+    }
+
+    .carousel-indicators {
+        bottom: -6em;
+    }
+
+    .socials a i{
+        font-size: 3.3rem;
+        margin: 0px 9px;
+    }
+    
+    .socials{
+        justify-content: center;
+        height: auto;
+        margin-top: 2vh;
+    }
 }

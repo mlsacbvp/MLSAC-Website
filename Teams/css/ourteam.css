@@ -5,7 +5,8 @@
 }
 
 body{
-  background: #203A61;
+  /* background: #203A61; */
+  background: white;
   font-family: 'Segoe UI Regular';
   font-weight: normal;
 }
@@ -293,6 +294,16 @@ html{
   text-align: center;
 }
 
+.slider{
+  background: #203A61;
+}
+
+/* carousel styling */
+
+.carousel{
+  background: #203A61;
+}
+
 /* styling for footer section */
 
 .socials i{
@@ -379,110 +390,9 @@ padding-left: 360px;
  padding-left: 550px;
 }
 
-/* navbar */
-
-.navbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#logo{
-  width: 46vw;
-}
-
-.list ul li a:hover{
-  background-color: gray;
-}
-
-/* footer*/
-.list{
-    margin-bottom: 1vh;
-}
-
-.list li{
-    list-style: none;
-    display: inline-block;
-}
-
-.list li a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    border-radius: 40em;
-    width: 10vw;
-    min-width: 5.4em;
-    height: 6vh;
-    margin: 0px 1vw;
-    text-align: center;
-    /* padding-top: 0.9vh; */
-    text-decoration: none;
-    font-size: 2em;
-    font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.list li a:hover{
-    transform: translateY(-0.3em);
-    color: black;
-}
-
-
-.heading-contact{
-  margin: auto;
-  font-size: 5em;
-  width: fit-content;
-  margin-top: 20vh;
-  position: relative;
-}
-
-.heading-contact::after{
-  content: "";
-  width: 50%;
-  height: 0.6vh;
-  background: white;
-  position: absolute;
-  bottom: -1.8vh;
-  left: 25%;
-}
-
-.contactus{
-  display: flex;
-  justify-content: space-between;
-  width: 66vw;
-  margin: auto;
-  margin-top: 9vh;
-}
-
 .item{
   display: flex;
   flex-direction: column;
   width: 31%;
   align-items: center;
-}
-
-.icon img{
-  width: 7em;
-  height: 7em;
-  margin-bottom: 2.5vh;
-}
-
-.quesbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.faqHead{
-  margin-top: 10vh;
-  font-size: 5em;
-}
-
-.answer{
-  padding: .375rem .75rem;
-  padding-left: 1em;
-  min-height: 12vh;
-  background: #c8cdd5;
-
 }
