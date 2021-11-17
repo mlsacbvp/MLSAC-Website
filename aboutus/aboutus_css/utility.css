@@ -67,7 +67,6 @@
     }
 
     .heading {
-        margin-top: 2vh;
         font-size: 10em;
     }
 
@@ -87,23 +86,33 @@
     .desc-1 {
         width: 100%;
         font-size: 2.3em;
-        text-align: left;
     }
 
-    .desc-2{
+    /* .desc-2{
         text-align: right;
-    }
+    } */
 
     .cards {
         margin-top: 3vh;
     }
 
     .card {
-        width: 94vw;
+        width: 90vw;
+    }
+
+    .vis-text{
+        width: 49%;
+    }
+
+    .vis-img {
+        width: 49%;
     }
 
     .vis-img img {
-        width: 45vw;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+        width: 37vw;
     }
 
     .desc {

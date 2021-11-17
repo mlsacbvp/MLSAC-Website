@@ -9,5 +9,5 @@ if(window.matchMedia("(max-width:450px)").matches){
 }
 
 setTimeout(function(){
-    Loadvideo.style.animation="blurme 4s 1"
-}, 7900);
+    Loadvideo.style.animation="blurme 1.3s 1"
+}, 6500);
