@@ -87,7 +87,7 @@
 
     .desc-1 {
         width: 100%;
-        font-size: 3.3em;
+        font-size: 3em;
     }
 
     /* .desc-2{
@@ -99,7 +99,7 @@
     }
 
     .card {
-        width: 99vw;
+        width: 96vw;
     }
 
     .vis-text{
@@ -114,7 +114,7 @@
         object-fit: contain;
         display: block;
         margin: auto;
-        width: 49vw;
+        width: 45vw;
     }
 
     .desc {
