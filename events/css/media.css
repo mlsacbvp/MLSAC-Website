@@ -28,6 +28,9 @@
     .bottom{
       font-size: 4px;
       padding-top: 1em;
+      position: absolute;
+      bottom: 0;
+      width: 100vw;
     }
 
     .handles{

@@ -6,7 +6,7 @@
 
 .poster{
     width: 100%;
-    padding-top: 3vh;
+    padding-top: 4vh;
 }
 
 .event-poster{
@@ -16,7 +16,7 @@
 
 .event-info{
     width: 100%;
-    padding-top: 3vh;
+    padding-top: 5vh;
 }
 
 .event-name{
@@ -35,6 +35,10 @@ pre{
 
 .event-details{
     width: 80%;
+}
+
+.cta{
+    margin-top: 12em;
 }
 
 .register{

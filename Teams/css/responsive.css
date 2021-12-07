@@ -23,6 +23,8 @@
     
     .knowUs img{
         height: auto;
+        width: 100%;
+        object-fit: contain;
         margin-bottom: 6vh;
     }
 
@@ -66,6 +68,10 @@
 
     .carousel{
         padding-top: 1vh;
+    }
+
+    .slider{
+        padding-top: 6em;
     }
 
     .carousel-indicators {
