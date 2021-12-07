@@ -56,7 +56,9 @@ pre {
     height: 5vh;
     color: black;
     text-decoration: none;
-    font-family: 'Segoe UI Regular', 'Open Sans', sans-serif;    
+    font-family: 'Segoe UI Regular', 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;  
 }
 
 .cta{
@@ -64,9 +66,10 @@ pre {
     justify-content: center;
 }
 
-button{
+.cta button{
     border-radius: 10em;
     border: none; 
+    margin: 0 2em;
 }
 
 .cta button:hover{

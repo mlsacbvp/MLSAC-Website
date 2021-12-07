@@ -3,3 +3,5 @@
 3. fixed sep events page
 4. fixed landing page
 5. fixed teams page
+6. updated teams slider
+7. changed overall illustrations

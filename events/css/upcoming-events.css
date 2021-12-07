@@ -1,9 +1,10 @@
 /* landing img styling */
 .landing-page{
   width: 100%;
-  height: 54vh;
+  height: 76vh;
   overflow: hidden;
-  background: #f7f7f7;
+  background: #ffffff;
+  padding-bottom: 7em;
 }
 
 .landing-page img{
@@ -11,7 +12,9 @@
   object-fit: contain;
   margin: auto;
   width: 100%;
-  height: 100%;
+  height: 134%;
+  position: relative;
+  top: -6em;
 }
 
 /* heading styling */
@@ -34,6 +37,7 @@
 
 .events{
   justify-content: center;
+  padding: 3em 0;
 }
 
 /* events box styling */
@@ -42,6 +46,18 @@
   display: flex;
   justify-content: center;
   padding: 0rem 0rem 9rem ;
+}
+
+.upcoming{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.event-poster img{
+  object-fit: fill;
 }
 
 .card {

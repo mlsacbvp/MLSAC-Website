@@ -64,6 +64,7 @@
 
     .about{
         height: 93vh;
+        margin-top: 5vh;
     }
 
     .heading {
@@ -77,6 +78,7 @@
     .about-img img {
         width: 85%;
         height: 28vh;
+        margin-bottom: 2vh;
     }
         
     .heading-1 {
@@ -127,7 +129,8 @@
     }
 
     .faqHead {
-        margin-top: 3vh;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
         font-size: 6em;
     }
 
@@ -158,6 +161,10 @@
         width: 55%;
         height: 0.2vh;
         bottom: -1.2vh;
+    }
+
+    .bottom{
+        margin-top: 6vh;
     }
 
     .socials {

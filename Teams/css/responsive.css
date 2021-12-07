@@ -23,6 +23,7 @@
     
     .knowUs img{
         height: auto;
+        margin-bottom: 6vh;
     }
 
     .space img{
@@ -51,11 +52,16 @@
     .mentor{
         font-size: 5.5em;
         padding: 1.5em 0;
+        margin-top: 2em;
     }
 
     .stud{
         width: 23vw;
         height: 16vh;
+    }
+
+    .stud-mentor{
+        padding-bottom: 15em;
     }
 
     .carousel{
