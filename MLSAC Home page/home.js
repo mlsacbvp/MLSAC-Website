@@ -8,6 +8,6 @@ if(window.matchMedia("(max-width:450px)").matches){
     })
 }
 
-setTimeout(function(){
+/* setTimeout(function(){
     Loadvideo.style.animation="blurme 1.3s 1"
-}, 6500);
+}, 6500); */
