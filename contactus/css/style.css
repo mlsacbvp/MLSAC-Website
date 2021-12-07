@@ -10,7 +10,7 @@ html{
 body{
     font-family: 'Segoe UI Regular';
     font-weight: normal;
-    background: linear-gradient(180deg, #1e3a61 0%, #113860 20%, #052a4a 55%, #041227 80%, #0d0d0d 100%);
+    background: #203A61;
 }
 
 /* body::before{
@@ -123,7 +123,7 @@ body{
 
 .contactus{
     text-align: center;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 65px;
     color: white;
     padding-bottom: 80px;
@@ -150,6 +150,9 @@ body{
     height: 400px;
     width: 400px;
 }
+.details{
+    margin-top: 1em;
+}
 
 .address{
     display: flex;
@@ -159,7 +162,6 @@ body{
 .address i{
     color: white;
     margin-top: 30px;
-    margin-left: 17px;
     margin-right: 17px;
     margin-bottom: 20px;
     padding: 5px 5px;
@@ -170,6 +172,7 @@ body{
     color: white;
     font-size: 20px;
     margin-left: 30px;
+    margin-top: 20px;
 }
 
 .call{
@@ -186,7 +189,6 @@ body{
     height: 32px;
     width: 32px;
     margin-top: 20px;
-    margin-left: 17px;
     margin-right: 17px;
     margin-bottom: 20px;
     padding: 5px 5px;
@@ -196,9 +198,8 @@ body{
     height: 32px;
     width: 32px;
     margin-top: 20px;
-    margin-left: 17px;
     margin-right: 17px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 5px 5px;
 }
 
@@ -219,10 +220,15 @@ footer{
     font-size: 4.2rem;
 }
 
+footer{
+background: linear-gradient(180deg, #203A61 0%, #0E0E0E 80.21%);
+}
+
 .footer{
     text-align: center;
     width: fit-content;
-    margin: 2em auto 2em auto;
+    margin: 2em auto 0 auto;
+    padding-bottom: 2em;
     /* position: absolute;
     bottom: 0px; */
 }

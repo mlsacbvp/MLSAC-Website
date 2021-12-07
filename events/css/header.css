@@ -17,6 +17,10 @@
     margin-bottom: 1vh;
 }
 
+.links ul{
+    margin-bottom: 1rem;
+}
+
 .links li{
     list-style: none;
     display: inline-block;

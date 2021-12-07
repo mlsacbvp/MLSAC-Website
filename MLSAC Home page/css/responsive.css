@@ -1,0 +1,16 @@
+@media screen and (max-width: 450px) {
+    .loading{
+        background: #0a0129;
+        border: 0px solid black
+    }
+    
+    video {
+        object-fit: contain;
+        border: 0px solid black;
+    }
+
+    .main{
+        display: none;
+    }
+
+}

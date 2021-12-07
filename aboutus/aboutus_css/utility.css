@@ -64,16 +64,21 @@
 
     .about{
         height: 93vh;
+        margin-top: 5vh;
     }
 
     .heading {
-        margin-top: 2vh;
         font-size: 10em;
+    }
+
+    .desc{
+        text-align: center;
     }
 
     .about-img img {
         width: 85%;
         height: 28vh;
+        margin-bottom: 2vh;
     }
         
     .heading-1 {
@@ -82,18 +87,33 @@
 
     .desc-1 {
         width: 100%;
-        font-size: 2.3em;
+        font-size: 3em;
     }
+
+    /* .desc-2{
+        text-align: right;
+    } */
 
     .cards {
         margin-top: 3vh;
     }
 
     .card {
-        width: 94vw;
+        width: 96vw;
+    }
+
+    .vis-text{
+        width: 50%;
+    }
+
+    .vis-img {
+        width: 50%;
     }
 
     .vis-img img {
+        object-fit: contain;
+        display: block;
+        margin: auto;
         width: 45vw;
     }
 
@@ -109,7 +129,8 @@
     }
 
     .faqHead {
-        margin-top: 3vh;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
         font-size: 6em;
     }
 
@@ -140,6 +161,10 @@
         width: 55%;
         height: 0.2vh;
         bottom: -1.2vh;
+    }
+
+    .bottom{
+        margin-top: 6vh;
     }
 
     .socials {

@@ -1,4 +1,7 @@
-1. made some changes to navbar. inreased its height.
-2. minor UI changes in teams page
-3. added details on Events page.
-4. fixed the events page slider
+1. fixed the background of contact us. the footer was also slightly adjusted.
+2. text alignment has been made justify in about us page whereevr applicable.
+3. fixed sep events page
+4. fixed landing page
+5. fixed teams page
+6. updated teams slider
+7. changed overall illustrations

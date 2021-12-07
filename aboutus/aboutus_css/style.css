@@ -73,8 +73,9 @@ html{
 }
 
 .about-img img {
-    width: 50%;
+    width: 65%;
     margin: auto;
+    margin-bottom: 8vh;
     display: block;
 }
 
@@ -82,7 +83,7 @@ html{
     width: 54%;
     font-size: 2.7em;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     position: relative;
 }
 
@@ -100,26 +101,28 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25vh;
+    margin-top: 30vh;
     background: white;
     /* height: 80v; */
 }
 
 .card{
     width: 90vw;
-    background: #00006A;
-    border-radius: 3.7em;
+    /* border-radius: 3.7em; */
+    border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 4em;
-    margin-top: 5vw;
+    margin-top: 6vw;
     padding-top: 2em;
 }
 
 .vis{
-    margin-bottom: 5vw;
+    margin-bottom: 10vw;
+    /* background: #00006A; */
+    
 }
 
 .vis-text{
@@ -135,7 +138,7 @@ html{
 
 .desc-1{
     font-size: 2.0em;
-    text-align: center;
+    text-align: justify;
     margin-top: 0.5em;
 }
 
@@ -249,8 +252,13 @@ html{
     align-items: center;
 }
 
+.quesbar span{
+    font-weight: 500;
+}
+
 .faqHead{
-    margin-top: 10vh;
+    margin-top: 16vh;
+    margin-bottom: 8vh;
     font-size: 5em;
 }
 
