@@ -172,7 +172,7 @@ body{
     color: white;
     font-size: 20px;
     margin-left: 30px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .call{
@@ -197,7 +197,7 @@ body{
 .mail img{
     height: 32px;
     width: 32px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 17px;
     /* margin-bottom: 20px; */
     padding: 5px 5px;
