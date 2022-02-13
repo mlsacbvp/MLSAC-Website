@@ -94,7 +94,7 @@ html{
     margin: auto;
     margin-bottom: 4vh;
     display: block;
-    background: url("/aboutus/aboutus_assets/about us-4.png");
+    background: url("../aboutus_assets/about us-4.png");
 }
 
 .desc{
