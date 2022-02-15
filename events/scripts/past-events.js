@@ -38,7 +38,7 @@ function slider(){
     // makes the required slides reappear
     slides[pos-1].style.display = "block";
     slides[pos].style.display = "block";
-    
+
     // shows 3 slides only when it is not the phone webpage
     if (!screenSize.matches){
       slides[pos+1].style.display = "block"; 
@@ -53,57 +53,4 @@ function slider(){
   
 }
 
-function slider2(){
-  // initialising slider
-  let slides = document.getElementsByClassName("past-card");
-  let slideIndex = 0;
-  showSlides(slideIndex);
-
-
-  // function to change slides number getting displayed
-
-  function plusSlides(n){
-    slideIndex += n;
-  
-    // setting lower limit 
-    if (slideIndex < 0){
-      slideIndex = slides.length - 1;
-    }
-  
-    // setting upper limit
-    else if (slideIndex >= (slides.length - 1) ){
-      slideIndex = 0;
-    }
-    showSlides(slideIndex);
-  }
-  
-  //function to display required slides
-
-  function showSlides(pos) {
-    let i;
-    for (i = 0; i < slides.length; i++) {
-        // makes all the slides disappear
-        slides[i].style.display = "none";
-    }
-
-    // makes the required slides reappear
-    slides[pos].style.display = "block";
-  }
-
-  // adding click action to both the anchor tags
-
-  document.getElementById("prev").addEventListener("click",() => plusSlides(-1) );
-  document.getElementById("next").addEventListener("click",() => plusSlides(1) );
-  
-}
-
-//trial media query to display 1 card in mobile view
-let screenSize = window.matchMedia("(max-width: 450px)");
-if (screenSize.matches){
-  slider2();
-}
-
-else{
-  slider();
-}
-
+slider();

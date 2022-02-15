@@ -1,27 +1,22 @@
 @media screen and (max-width: 450px){
     .landing-page{
         padding-bottom: 0em;
-        /* padding-top: 8em; */
-        height: 37vh;
+        padding-top: 8em;
+        height: 44vh;
     }
 
     .landing-page img{
         display: block;
         object-fit: contain;
         margin: auto;
-        width: 100%;
+        width: 117%;
         height: 100%;
-        top: 0em;
-        left: 0em;
-    }
-
-    .container{
-        padding-bottom: 5em;
+        top: -6em;
+        left: -8em;
     }
 
     .events{
-        padding: 2em 0;
-        /* height: 40vh; */
+        padding: 9em 0;
     }
 
     .past-events{
@@ -35,11 +30,10 @@
     .heading{
         padding: 0;
         padding-bottom: 4rem;
-        height: 6vh;
     }
 
     .heading h2{
-        font-size: 6rem;
+        font-size: 7.5rem;
     }
 
     .card{
@@ -47,11 +41,7 @@
     }
 
     .past-heading{
-        font-size: 6rem;
-    }
-
-    .past-title{
-        font-size: 4.1rem;
+        font-size: 7.5rem;
     }
 
     .past-card{

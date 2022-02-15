@@ -14,18 +14,13 @@
         height: 7vh;
     }
 
-    .logo img{
-        width: 46vw;
-    }
-
     .links {
         margin-bottom: 0vh;
     }
     
     .links li a{
         height: 2em;
-        font-size: 2em;
-        width: 12vw;
+        font-size: 2.1em;
     }
     
     .links li a:hover{
@@ -47,7 +42,7 @@
 
 
 .contactus{
-    font-size: 32px;
+    font-size: 35px;
     padding-bottom: 30px;
 }
 
@@ -57,7 +52,7 @@
 } */
 
 .detail-text{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .address i{

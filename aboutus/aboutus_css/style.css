@@ -20,8 +20,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 18vh; */
-    height: 16vh;
+    height: 18vh;
     position: sticky;
     top:0px; /* this is needed for 'sticky' value to work accordingly */
     z-index: 2;
@@ -29,8 +28,7 @@ html{
 }
 
 .logo img{
-    /* width: 46vw; */
-    width: 33vw;
+    width: 46vw;
     /* height: 21vh; */
 }
 
@@ -43,29 +41,20 @@ html{
     display: inline-block;
 }
 
-.links ul{
-    margin-bottom: 0;
-}
-
 .links li a{
     display: flex;
     justify-content: center;
     align-items: center;
     background: white;
-    /* border-radius: 40em; */
-    border-radius: 1.5em;
-    /* width: 12vw; */
-    width: 10vw;
+    border-radius: 40em;
+    width: 12vw;
     min-width: 5.4em;
-    /* height: 7vh; */
-    height: 6vh;
-    /* margin: 0px 1vw; */
-    margin: 0px 1.5vw;
+    height: 7vh;
+    margin: 0px 1vw;
     text-align: center;
     /* padding-top: 0.9vh; */
     text-decoration: none;
-    /* font-size: 2.5em; */
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
     transition: transform 0.1s ease-in;
     
@@ -77,34 +66,25 @@ html{
 }
 
 .heading{
-    /* font-size: 7em; */
-    font-size: 5em;
+    font-size: 7em;
     text-align: center;
     /* margin-top: -1vh; */
     font-weight: 700;
 }
 
-.heading p{
-    margin-bottom: 0;
-}
-
-.about-img-1 {
-    width: 80%;
-    height: 40vh;
+.about-img img {
+    width: 65%;
     margin: auto;
-    margin-bottom: 4vh;
+    margin-bottom: 8vh;
     display: block;
-    background: url("../aboutus_assets/about us-4.png");
 }
 
 .desc{
     width: 54%;
-    /* font-size: 2.7em; */
-    font-size: 2em;
+    font-size: 2.7em;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     position: relative;
-    padding-top: 1em
 }
 
 .desc::after{
@@ -121,7 +101,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 18vh;
+    margin-top: 30vh;
     background: white;
     /* height: 80v; */
 }
@@ -134,14 +114,13 @@ html{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 0 4em;
-    margin: 5em 0;
-    /* padding-top: 2em; */
+    padding: 4em;
+    margin-top: 6vw;
+    padding-top: 2em;
 }
 
 .vis{
-    margin-bottom: 10em;
-    margin-top: 0;
+    margin-bottom: 10vw;
     /* background: #00006A; */
     
 }
@@ -158,16 +137,14 @@ html{
 }
 
 .desc-1{
-    /* font-size: 2.0em; */
-    font-size: 2em;
+    font-size: 2.0em;
     text-align: justify;
     margin-top: 0.5em;
 }
 
 .heading-1{
     margin-bottom: 0.2em;
-    /* font-size: 10em; */
-    font-size: 5em;
+    font-size: 10em;
 }
 
 
@@ -194,7 +171,7 @@ html{
     justify-content: space-between;
     width: 66vw;
     margin: auto;
-    margin-top: 10em;
+    margin-top: 9vh;
 }
 
 .item{
@@ -205,10 +182,8 @@ html{
 }
 
 .icon img{
-    /* width: 7em;
-    height: 7em; */
-    width: 6em;
-    height: 6em;
+    width: 7em;
+    height: 7em;
     margin-bottom: 2.5vh;
 }
 
@@ -217,7 +192,7 @@ html{
 }
 
 .icon-name{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .socials{
@@ -252,8 +227,7 @@ html{
 .faq1{
     width: 82vw;
     border-radius: 0.5em;
-    /* font-size: 2.3em; */
-    font-size: 2em;
+    font-size: 2.3em;
     text-align: left;
     padding-left: 1em;
     margin: auto;
@@ -283,7 +257,7 @@ html{
 }
 
 .faqHead{
-    margin-top: 2em;
+    margin-top: 16vh;
     margin-bottom: 8vh;
     font-size: 5em;
 }
