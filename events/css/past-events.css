@@ -9,8 +9,7 @@
 
 .past-events{
   background-color: white;
-  padding-bottom: 0em;
-  padding-top: 2em;
+  padding-bottom: 8em;
 }
 
 .past-container{
@@ -54,7 +53,7 @@
 
 .past-title {
   color: black;
-  font-size: 2rem;
+  font-size: 2.8rem;
   padding: 2rem 0;
   text-align: center;
 }
@@ -62,6 +61,5 @@
 figcaption{
   text-align: center;
   color: black;
-  /* font-size: 1.4rem; */
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 } 
