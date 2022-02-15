@@ -21,7 +21,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 18vh;
+  height: 16vh;
   position: sticky;
   top:0px; /* this is needed for 'sticky' value to work accordingly */
   z-index: 2;
@@ -29,11 +29,15 @@ html{
 }
 
 .logo img{
-  width: 46vw;
+  width: 33vw;
 }
 
 .links{
   margin-bottom: 1vh;
+}
+
+.links ul{
+  margin-bottom: 0;
 }
 
 .links li{
@@ -46,14 +50,14 @@ html{
   justify-content: center;
   align-items: center;
   background: white;
-  border-radius: 40em;
-  width: 12vw;
+  border-radius: 1.5em;
+  width: 10vw;
   min-width: 5.4em;
-  height: 7vh;
-  margin: 0px 1vw;
+  height: 6vh;
+  margin: 0px 1.5vw;
   text-align: center;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   transition: transform 0.1s ease-in; 
 }
@@ -67,7 +71,7 @@ html{
 
 .heading-main{
   padding-top: 1.1em;
-  font-size: 7em;
+  font-size: 5em;
   font-weight: 700;
   text-align: center;
   color: #2D2D83;
@@ -80,11 +84,13 @@ html{
 }
 
 .knowUs img{
-  width: 64%;
+  width: 60%;
   /* height: 60vh; */
   margin: auto;
-  margin-bottom: 16vh;
+  margin-bottom: 5vh;
   display: block;
+  position: relative;
+  left: -6em;
 }
 
 .space-img{
@@ -137,7 +143,7 @@ html{
   background: white;
   font-size: 5em;
   font-weight: 700;
-  padding: 2em 0;
+  padding: 1.2em 0;
   margin-top: 3vh;
 }
 
@@ -188,7 +194,7 @@ html{
 }
 
 .fac-name{
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 700;
   text-align: center;
   padding: 1em 0;
@@ -196,7 +202,7 @@ html{
 
 .fac-info{
   text-align: justify;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 /* student mentor styling */
@@ -207,7 +213,7 @@ html{
   text-align: center;
   background: white;
   padding: 1em 0;
-  margin-top: 4em;
+  margin-top: 1.2em;
 
 }
 
@@ -216,7 +222,7 @@ html{
   flex-wrap: wrap;
   background: white;
   justify-content: center;
-  padding-bottom: 20em;
+  padding-bottom: 5em;
 }
 
 .stud{

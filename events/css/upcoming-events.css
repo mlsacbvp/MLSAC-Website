@@ -25,12 +25,12 @@
   position: relative;
   align-items: flex-end;
   height: 8vh;
-  padding: 6rem 0;
-  font-size: 6.5em;
+  padding: 3rem 0 6rem 0;
+  font-size: 5em;
 }
 
 .heading h2{
-  font-size: 6.5rem;
+  font-size: 5rem;
   color: white;
   font-weight: 600;
 }
@@ -45,7 +45,7 @@
 .container{
   display: flex;
   justify-content: center;
-  padding: 0rem 0rem 9rem ;
+  padding: 0rem 0rem 2rem ;
 }
 
 .upcoming{
@@ -79,7 +79,7 @@
 }
 
 .recent-event{
-  padding: 13rem 2.5rem;
+  padding: 13em 2.5rem 0;
   height: 34rem;
   width: 25rem;
   transition: 0.6s ease-out;
@@ -92,7 +92,7 @@ transform: scale(1.1);
 .title {
   color: white;
   position: absolute;
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 2rem 3rem;
 }
 
