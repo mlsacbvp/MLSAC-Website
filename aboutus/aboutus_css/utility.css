@@ -43,6 +43,10 @@
     html{
         font-size: 4px;
     }
+
+    .logo img{
+        width: 46vw;
+    }
     
     .links {
         margin-bottom: 0vh;
@@ -50,7 +54,8 @@
     
     .links li a{
         height: 2em;
-        font-size: 2.1em;
+        font-size: 2em;
+        width: 12vw;
     }
     
     .links li a:hover{
@@ -63,26 +68,33 @@
     }
 
     .about{
-        height: 93vh;
+        height: 88vh;
         margin-top: 5vh;
     }
 
     .heading {
-        font-size: 10em;
+        font-size: 8em;
+        margin-top: 2em;
     }
 
-    .desc{
-        text-align: center;
-    }
-
-    .about-img img {
+    .about-img-1 {
         width: 85%;
         height: 28vh;
         margin-bottom: 2vh;
+        background: url("../aboutus_assets/old/about us 3.png");
+        background-size: contain;
     }
         
     .heading-1 {
-        font-size: 8em;
+        font-size: 6em;
+        margin-top: 0;
+    }
+    
+    .desc {
+        font-size: 4.1em;
+        width: 76%;
+        margin-top: 0em;
+        text-align: center;
     }
 
     .desc-1 {
@@ -117,11 +129,6 @@
         width: 45vw;
     }
 
-    .desc {
-        font-size: 5em;
-        width: 76%;
-        margin-top: 1em;
-    }
 
     .desc::after {
         bottom: -3vh;
@@ -129,7 +136,7 @@
     }
 
     .faqHead {
-        margin-top: 7vh;
+        margin-top: 5vh;
         margin-bottom: 5vh;
         font-size: 6em;
     }
@@ -150,11 +157,12 @@
 
     .faq1 {
         width: 87vw;
-        font-size: 3.2em;
+        font-size: 3em;
     }
 
     .heading-contact {
         margin-top: 3vh;
+        font-size: 6em;
     }
 
     .heading-contact::after {

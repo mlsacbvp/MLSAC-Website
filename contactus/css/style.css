@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 18vh;
+    height: 16vh;
     position: sticky;
     top:0px; /* this is needed for 'sticky' value to work accordingly */
     z-index: 2;
@@ -39,7 +39,7 @@ body{
 }
 
 .logo img{
-    width: 46vw;
+    width: 33vw;
 }
 
 .links{
@@ -56,15 +56,15 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
-    border-radius: 40em;
-    width: 12vw;
+    border-radius: 1.5em;
+    width: 10vw;
     min-width: 5.4em;
-    height: 7vh;
-    margin: 0px 1vw;
+    height: 6vh;
+    margin: 0px 1.5vw;
     text-align: center;
     /* padding-top: 0.9vh; */
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     transition: transform 0.1s ease-in;
 }
@@ -124,7 +124,8 @@ body{
 .contactus{
     text-align: center;
     font-weight: 700;
-    font-size: 65px;
+    /* font-size: 65px; */
+    font-size: 50px;
     color: white;
     padding-bottom: 80px;
 }

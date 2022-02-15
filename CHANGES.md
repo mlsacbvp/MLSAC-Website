@@ -1,7 +1,13 @@
-1. fixed the background of contact us. the footer was also slightly adjusted.
-2. text alignment has been made justify in about us page whereevr applicable.
-3. fixed sep events page
-4. fixed landing page
-5. fixed teams page
-6. updated teams slider
-7. changed overall illustrations
+Font Sizing
+
+for web
+heading - 5em / 50 px
+content - 2em / 20 px
+footer text - 1.3em / 13px
+headings - 30 /40 px
+
+for mobile
+heading - 8em / 32 px
+sub headings - 6em / 24 px
+content - 4.1em 16.4px
+text - 3em /  12 px
