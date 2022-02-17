@@ -68,7 +68,7 @@
     }
 
     .about{
-        height: 88vh;
+        height: 75vh;
         margin-top: 5vh;
     }
 
@@ -107,7 +107,8 @@
     } */
 
     .cards {
-        margin-top: 3vh;
+        /* margin-top: 3vh; */
+        display: none;
     }
 
     .card {
@@ -188,5 +189,18 @@
     .socials a img {
         width: 3.2em;
         height: 3.2em;
+    }
+    .cards_2{
+        display: block;
+        background-color: #fff;
+    }
+    .card_2 img{
+        height: 30em;
+        display: block;
+        margin: auto;
+    }
+    .card_2 span{
+        display: block;
+        padding: 20px 20px;
     }
 }
