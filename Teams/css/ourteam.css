@@ -21,19 +21,23 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 18vh;
+  height: 16vh;
   position: sticky;
   top:0px; /* this is needed for 'sticky' value to work accordingly */
-  z-index: 2;
+  z-index: 4;
   background: #203A61;
 }
 
 .logo img{
-  width: 46vw;
+  width: 33vw;
 }
 
 .links{
   margin-bottom: 1vh;
+}
+
+.links ul{
+  margin-bottom: 0;
 }
 
 .links li{
@@ -46,14 +50,14 @@ html{
   justify-content: center;
   align-items: center;
   background: white;
-  border-radius: 40em;
-  width: 12vw;
+  border-radius: 1.5em;
+  width: 10vw;
   min-width: 5.4em;
-  height: 7vh;
-  margin: 0px 1vw;
+  height: 6vh;
+  margin: 0px 1.5vw;
   text-align: center;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   transition: transform 0.1s ease-in; 
 }
@@ -67,7 +71,7 @@ html{
 
 .heading-main{
   padding-top: 1.1em;
-  font-size: 7em;
+  font-size: 5em;
   font-weight: 700;
   text-align: center;
   color: #2D2D83;
@@ -80,11 +84,13 @@ html{
 }
 
 .knowUs img{
-  width: 64%;
+  width: 60%;
   /* height: 60vh; */
   margin: auto;
-  margin-bottom: 16vh;
+  margin-bottom: 5vh;
   display: block;
+  position: relative;
+  left: -6em;
 }
 
 .space-img{
@@ -137,7 +143,7 @@ html{
   background: white;
   font-size: 5em;
   font-weight: 700;
-  padding: 2em 0;
+  padding: 1.2em 0;
   margin-top: 3vh;
 }
 
@@ -162,10 +168,19 @@ html{
   margin-left: 7em;
 }
 
+.fac-face{
+  position: relative;
+  /* border-radius: 21vw; */
+  overflow: hidden;
+  clip-path: circle();
+}
+
 .fac-face img{
   width: 21vw;
-  height: 22vw;
-  border-radius: 21vw;
+  /* height: 22vw; */
+  /* object-fit:cover; */
+  position: relative;
+  top: 0em;
 }
 
 .fac-socials{
@@ -188,7 +203,7 @@ html{
 }
 
 .fac-name{
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 700;
   text-align: center;
   padding: 1em 0;
@@ -196,7 +211,7 @@ html{
 
 .fac-info{
   text-align: justify;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 /* student mentor styling */
@@ -207,7 +222,7 @@ html{
   text-align: center;
   background: white;
   padding: 1em 0;
-  margin-top: 4em;
+  margin-top: 1.2em;
 
 }
 
@@ -216,7 +231,7 @@ html{
   flex-wrap: wrap;
   background: white;
   justify-content: center;
-  padding-bottom: 20em;
+  padding-bottom: 5em;
 }
 
 .stud{
@@ -231,6 +246,8 @@ html{
   border-radius: 18em;
   background: white;
   margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .stud-pic img{
@@ -238,6 +255,58 @@ html{
   width: 18em;
   border-radius: 18em;
   margin: auto;
+}
+
+.stud-pic::after{
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  height: 19em;
+  width: 18em;
+  border-radius: 18em;
+  position: absolute;
+  top: -100%;
+  left: 0em;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.55s ease;
+}
+
+.stud-pic:hover::after{
+  opacity: 1;
+  top: 0;
+}
+
+.stud-pic:hover .stud-social{
+  top: 40%;
+}
+
+.stud-social{
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  top: -50%;
+  margin-bottom: 0;
+  padding: 0;
+  transition: all 0.55s ease;
+}
+
+.stud-social li{
+  display: inline-block;
+}
+
+.stud-social li a{
+  text-decoration: none;
+}
+
+.stud-social li a i{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  margin: 0 5px;
+  font-size: 4em;
+  color:rgb(255, 255, 255);
 }
 
 .stud-name{
@@ -306,7 +375,87 @@ html{
 
 .carousel{
   background: #203A61;
+  overflow: visible;
 }
+
+/* carousel slide sytling */
+
+.team{
+  
+}
+
+.member{
+  border: 2px solid red;
+  width: 16vw;
+  height: 47vh;
+  display: inline-block;
+}
+
+.member img{
+  object-fit: cover;
+  width: 16vw;
+  height: 40vh;
+  /* position: relative; */
+  /* transform: translateY(0px); */
+
+  /* top: 0; */
+}
+
+.member:hover img{
+  /* transform: translateY(-90px); */
+  /* z-index: 5; */
+}
+
+.mem-desc{
+  height: 7vh;
+  /* position: relative; */
+  transition: all 0.6s ease;
+  transform: translateY(0px);
+  opacity: 0;
+}
+
+.member:hover .mem-desc{
+  transform: translateY(-5px);
+  opacity: 1;
+}
+
+.mem-name{
+  font-size: 1.8em;
+  color: wheat;
+}
+
+.mem-socials{
+  height: 3vh;
+}
+
+.mem-socials ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mem-socials ul li{
+  display: inline-block;
+}
+
+.mem-socials ul li a{
+  text-decoration: none;
+}
+
+.mem-socials ul li a i{
+  font-size: 2.5em;
+  color: white;
+}
+
+.odd{
+
+}
+
+.even{
+
+}
+
+
 
 /* styling for footer section */
 
@@ -347,9 +496,9 @@ html{
     
 }
 
-.member{
+/* .member{
     clip-path: circle();
-}
+} */
 .item1{
 padding-left: 360px;
 }

@@ -1,22 +1,18 @@
 .event-desc{
     display: flex;
-    padding: 15vh 11vw 10vh 11vw;
-    justify-content: space-around;
+    padding: 7em 11vw 7em 11vw;
+    justify-content: space-between;
     align-items: flex-start;
 }
 .poster{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 50vw;
     align-items: center;
 }
 
 .event-poster{
-    /* padding-top: 1.6vh; */
-    height: auto;
-    width: 100%;
-    padding-right: 15rem;
-    /* padding-top: 5rem; */
+    width: 90%;
 }
 
 .event-info{
@@ -24,11 +20,12 @@
     flex-direction: column;
     width: 50vw;
     align-items: center;
+    /* padding-left: 10em; */
 
 }
 
 .event-info h3{
-    font-size: 6rem;
+    font-size: 5rem;
     color: white;
     font-weight: 600;
 }
@@ -40,7 +37,7 @@
 }
 pre {
     white-space: pre-wrap;
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: normal;
     color: white;
     font-weight: lighter;
@@ -51,14 +48,14 @@ pre {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12vw;
+    width: 10vw;
     margin: 0 auto;
-    height: 5vh;
+    height: 6vh;
     color: black;
     text-decoration: none;
     font-family: 'Segoe UI Regular', 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 1.2em;  
+    font-size: 2rem;  
 }
 
 .cta{
@@ -67,7 +64,7 @@ pre {
 }
 
 .cta button{
-    border-radius: 10em;
+    border-radius: 3rem;
     border: none; 
     margin: 0 2em;
 }
@@ -77,6 +74,9 @@ pre {
     box-shadow: black 0.2em 1em 1.4em;
 }
 
+.bottom-1{
+    padding-top: 10em;
+}
 
 
 
