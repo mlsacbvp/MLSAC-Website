@@ -1,6 +1,6 @@
 .event-desc{
     display: flex;
-    padding: 7em 11vw 7em 11vw;
+    padding: 0em 11vw;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -25,7 +25,7 @@
 }
 
 .event-info h3{
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
     font-weight: 600;
 }
@@ -42,6 +42,7 @@ pre {
     color: white;
     font-weight: lighter;
     font-family: 'Segoe UI Regular', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif' ;
+    text-align: center;
 }
 
 .register{
