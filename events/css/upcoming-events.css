@@ -2,7 +2,7 @@
 .landing-page{
   width: 100%;
   height: 30vh;
-  /* overflow: hidden; */
+  overflow: scroll;
   background: #ffffff;
   padding:7em 0em;
   display: flex;
@@ -28,7 +28,8 @@
   /* height: 8vh; */
   padding: 2rem 0 2rem 0;
   font-size: 3em;
-  color:white;
+  color:black;
+  background-color: #ffffff;
 }
 
 .heading{
@@ -37,7 +38,7 @@
   position: relative;
   align-items: flex-end;
   height: 15vh;
-  padding: 3rem 0 6rem 0;
+  padding: 0rem 0 5rem 0;
   font-size: 4em;
 }
 
@@ -56,19 +57,21 @@
 
 .page-desc{
   font-size: 2em;
-  color: white;
-  padding: 0rem 32rem;
+  color: black;
+  background-color: #ffffff;
+  padding: 0rem 32rem 13rem 32rem;
   display: flex;
   text-align: center;
+
 }
 
 .page-desc::after{
     position: absolute;
     width: 65%;
     height: 0.6vh;
-    background: white;
+    background: black;
     content: "";
-    bottom: 5vh;
+    bottom: 4vh;
     left: 17.5%;
 }
 
@@ -170,3 +173,6 @@ transform: scale(1.1);
   border: 0.2rem solid rgb(255, 255, 255); 
 }
 
+.strong{
+  font-family: 'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif;
+}
