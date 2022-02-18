@@ -456,6 +456,7 @@ html{
   transform: translateY(-10px);
   opacity: 0;
   z-index: 1;
+  text-align: center;
 }
 
 .member:hover .mem-desc{

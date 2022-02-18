@@ -6,6 +6,10 @@
     .header{
         height: 7vh;
     }
+
+    .logo img{
+        width: 46vw;
+    }
     
     .links {
         margin-bottom: 0vh;
@@ -13,7 +17,8 @@
     
     .links li a{
         height: 2em;
-        font-size: 2.1em;
+        font-size: 2em;
+        width: 12vw;
     }
     
     .links li a:hover{
@@ -67,6 +72,7 @@
 
     .fac-desc{
         width: 70%;
+        padding-right: 0;
     }
 
     .fac-name{
@@ -135,11 +141,28 @@
 
     .slider{
         padding-top: 4em;
+        margin-top: -5em;
     }
 
     .carousel-indicators {
-        bottom: -6em;
+        bottom: -9em;
         zoom: 0.5;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 10em;
+    }
+
+    .carousel-control-next{
+        right: 4em;
+    }
+
+    .carousel-control-prev{
+        left: 4em;
+    }
+
+    .bottom{
+        padding-top: 5em;
     }
 
     .socials a i{
