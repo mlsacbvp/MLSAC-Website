@@ -1,15 +1,21 @@
 @media screen and (max-width: 450px){
     .landing-page{
         padding-bottom: 0em;
-        /* padding-top: 8em; */
-        height: 37vh;
+        padding-top: 8em;
+        height: 20vh;
+    }
+
+    .page-desc::after{
+        bottom: 54vh;
+        width: 63vw;
+        height: 0.3vh;
     }
 
     .landing-page img{
         display: block;
         object-fit: contain;
         margin: auto;
-        width: 100%;
+        width: 33vw;
         height: 100%;
         top: 0em;
         left: 0em;
@@ -19,17 +25,24 @@
         padding-bottom: 5em;
     }
 
-    .events{
-        padding: 2em 0;
-        /* height: 40vh; */
+    .page-desc{
+        padding: 0rem 18rem 9rem 18rem;
+        font-size: 2.6em;
     }
 
+    /* .events{
+        padding: 10em 0;
+        height: 40vh;
+    } */
+
     .past-events{
-        padding-bottom: 12em;
+        padding-bottom: 37em;
     }
 
     .past-photo{
-        object-fit: cover;
+        /* object-fit: cover; */
+        height:48rem;
+        width: 38rem;
     }
     
     .heading{
@@ -77,4 +90,42 @@
     .prev, .next{
         margin-top: 52px;
     }
+
+    .event-desc{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event-details{
+        padding-top: 2vh;
+    }
+
+    .event-poster{
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .poster{
+        justify-content: center;
+    }
+
+    .event-name h3{
+        font-size: 5rem;
+    }
+
+    .event-details pre{
+        font-size: 2.5rem;
+    }
+
+    .register{
+        width: 22vw;
+    }
+
+    .past-event-poster figcaption{
+        width: 50vw;
+        font-size: 2.5rem;
+    }
+
+    
 }
