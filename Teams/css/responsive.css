@@ -23,9 +23,13 @@
     
     .knowUs img{
         height: auto;
-        width: 100%;
+        width: 95%;
         object-fit: contain;
-        margin-bottom: 6vh;
+        margin-bottom: 2vh;
+    }
+
+    .heading-main{
+        font-size: 5.5em;
     }
 
     .space img{
@@ -48,34 +52,94 @@
     }
 
     .fac-mentor{
-        align-items: flex-end;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-photo{
+        margin: 0;
+        zoom: 2.2;
+    }
+
+    .fac-socials a img{
+        margin: 0 0.6em;
+    }
+
+    .fac-desc{
+        width: 70%;
+    }
+
+    .fac-name{
+        font-size: 5em;
+    }
+
+    .fac-info{
+        font-size: 2.5em;
     }
 
     .mentor{
         font-size: 5.5em;
         padding: 1.5em 0;
-        margin-top: 2em;
+        margin-top: 0.8em;
     }
 
     .stud{
         width: 23vw;
         height: 16vh;
+        zoom: 1.4;
     }
 
     .stud-mentor{
-        padding-bottom: 15em;
+        padding-bottom: 1em;
     }
 
     .carousel{
-        padding-top: 1vh;
+        padding-top: 0vh;
+    }
+
+    .team-name{
+        padding-bottom: 0.3em;
+    }
+
+    .member{
+        height: 14vh;
+        width: 13vw;
+    }
+
+    .member img{
+        height: 12vh;
+        width: 13vw;
+    }
+
+    .member::after{
+        height: 12vh;
+        width: 13vw;
+    }
+
+    .mem-desc{
+        height: 3vh;
+        transform: translateY(-6px);
+    }
+
+    .member:hover .mem-desc {
+        transform: translateY(-11px);
+    }
+
+    .mem-name {
+        font-size: 1.7em;
+    }
+
+    .mem-socials ul li a i {
+        font-size: 2em;
     }
 
     .slider{
-        padding-top: 6em;
+        padding-top: 4em;
     }
 
     .carousel-indicators {
         bottom: -6em;
+        zoom: 0.5;
     }
 
     .socials a i{
