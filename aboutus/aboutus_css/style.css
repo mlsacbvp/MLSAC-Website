@@ -293,5 +293,8 @@ html{
     padding-left: 1em;
     min-height: 12vh;
     background: #c8cdd5;
+}
 
+.cards_2{
+    display: none;
 }
