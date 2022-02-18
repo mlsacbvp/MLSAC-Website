@@ -415,8 +415,9 @@ html{
   content: "";
   width: 14vw;
   height: 38vh;
-  background: #0E0E0E;
-  opacity: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1));
+  /* background: rgba(0, 0, 0, 0.65); */
+  opacity: 0.7;
   top: 0;
   transition: all 0.6s ease;
 }
