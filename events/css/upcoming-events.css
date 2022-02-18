@@ -5,6 +5,7 @@
   /* overflow: auto; */
   background: #ffffff;
   padding:7em 0em;
+  padding-bottom: 4em;
   display: flex;
 }
 
@@ -26,7 +27,7 @@
   position: relative;
   align-items: flex-end;
   /* height: 8vh; */
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 2rem 0;
   font-size: 3em;
   color:black;
   background-color: #ffffff;
