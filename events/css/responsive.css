@@ -149,7 +149,8 @@
 
     .register{
         width: 30vw;
-        height: 2.5em;
+        height: 2em;
+        font-size: 0.8em;
     }
 
     .past-event-poster figcaption{
