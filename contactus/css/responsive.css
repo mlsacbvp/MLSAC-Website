@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.left{
+    margin: 0;
+}
+
+.right{
+    margin: 0;
+}
+
 .left iframe{
     margin: 0;
     height: 70vh;
