@@ -21,12 +21,23 @@
         left: 0em;
     }
 
+    #img-1{
+        height: 30vh;
+        width: 80vw;
+        position: relative;
+        top: -13em;
+    }
+
+    #img-2, #img-3{
+        display: none;
+    }
+
     .container{
         padding-bottom: 5em;
     }
 
     .page-desc{
-        padding: 0rem 18rem 9rem 18rem;
+        padding: 1rem 11rem 6rem 11rem;
         font-size: 2.6em;
     }
 
@@ -91,6 +102,16 @@
         margin-top: 52px;
     }
 
+    .main-heading{
+        font-size: 4em;
+        border: none;
+        outline: 0;
+    }
+
+    .page-desc{
+        font-size: 3em;
+    }
+
     .event-desc{
         flex-direction: column;
         justify-content: center;
@@ -102,29 +123,47 @@
     }
 
     .event-poster{
-        height: 30vh;
-        width: 30vh;
+        height: 31vh;
+        width: 70vw;
     }
 
     .poster{
         justify-content: center;
+        height: 35vh;
+        width: 70vw;
+        padding-top: 0;
     }
 
     .event-name h3{
-        font-size: 5rem;
+        font-size: 6rem;
+    }
+
+    .event-info{
+        width: 85vw;
+        padding-top: 2vh;
     }
 
     .event-details pre{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .register{
-        width: 22vw;
+        width: 30vw;
+        height: 2em;
+        font-size: 0.8em;
     }
 
     .past-event-poster figcaption{
         width: 50vw;
         font-size: 2.5rem;
+    }
+
+    .cta{
+        margin-top: 5em;
+    }
+
+    .bottom{
+        padding-top: 1em;
     }
 
     
