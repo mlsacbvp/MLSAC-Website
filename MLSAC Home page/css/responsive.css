@@ -1,6 +1,7 @@
 @media screen and (max-width: 450px) {
     .loading{
-        background: #0a0129;
+        background: #060f1e;
+        /* background: #0a0129; */
         border: 0px solid black
     }
     
