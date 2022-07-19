@@ -28,3 +28,8 @@
     font-weight: normal;
     src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
     }
+
+    @font-face {
+        font-family: origin-tech;
+        src: url(../../aboutus/aboutus_font/OriginTech\ personal\ use.ttf);
+    }
