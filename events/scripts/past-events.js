@@ -77,7 +77,7 @@ pastEvents.forEach(function(pastEvent){
       </div>
     </div> `;
 });
-console.log("here");
+
 document.getElementById("past-events-details").innerHTML = htmlCode;
 
 
