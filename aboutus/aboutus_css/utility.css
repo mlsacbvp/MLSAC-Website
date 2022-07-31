@@ -1,9 +1,9 @@
-.black-text{
+.black-text {
     color: black;
     text-decoration: none;
 }
 
-.white-text{
+.white-text {
     color: white;
     text-decoration: none;
 }
@@ -13,94 +13,102 @@
     font-style: normal;
     font-weight: normal;
     src: local('Segoe UI'), url('Segoe UI.woff') format('woff');
-    }
-    
+}
 
-    @font-face {
+
+@font-face {
     font-family: 'Segoe UI Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
-    }
-    
+}
 
-    @font-face {
+
+@font-face {
     font-family: 'Segoe UI Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
-    }
-    
+}
 
-    @font-face {
+
+@font-face {
     font-family: 'Segoe UI Bold Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
-    }
+}
 
-@media screen and (max-width: 450px){
-    html{
+@media screen and (max-width: 450px) {
+    html {
         font-size: 4px;
     }
 
-    .logo img{
+    .logo img {
         width: 46vw;
     }
-    
+
     .links {
         margin-bottom: 0vh;
     }
-    
-    .links li a{
+
+    .links li a {
         height: 2em;
         font-size: 2em;
         width: 12vw;
     }
-    
-    .links li a:hover{
+
+    .links li a:hover {
         transform: translateY(0);
         color: black;
     }
 
-    .header{
+    .header {
         height: 7vh;
     }
 
-    .about{
+    .about {
         height: 84vh;
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-bottom: 5vh;
     }
 
     .heading {
-        font-size: 8em;
-        margin-top: 2em;
+        font-size: 7em;
+        margin-top: 1em;
     }
 
     .about-img-1 {
         width: 85%;
         height: 28vh;
-        margin-bottom: 2vh;
+        margin-bottom: 6vh;
         background: url("../aboutus_assets/old/about us 3.png");
         background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-        
+
     .heading-1 {
         font-size: 6em;
         margin-top: 0;
     }
-    
+
     .desc {
-        font-size: 4.1em;
-        width: 76%;
+        font-size: 4.7em;
+        width: 90%;
         margin-top: 0em;
         text-align: center;
     }
 
     .desc-1 {
-        width: 100%;
-        font-size: 3em;
+        width: 90%;
+        font-size: 3.7em;
+        margin: auto;
+    }
+
+    .cards_2 {
+        padding-top: 2em;
+        padding-bottom: 6em;
     }
 
     /* .desc-2{
@@ -116,7 +124,7 @@
         width: 96vw;
     }
 
-    .vis-text{
+    .vis-text {
         width: 50%;
     }
 
@@ -149,12 +157,13 @@
         font-size: 3.2em;
     }
 
-    .contactus{
+    .contactus {
         margin-top: 5vh;
     }
 
     .answer {
         min-height: 4vh;
+        padding: 10px;
     }
 
     .faq1 {
@@ -173,7 +182,7 @@
         bottom: -1.2vh;
     }
 
-    .bottom{
+    .bottom {
         margin-top: 6vh;
     }
 
@@ -181,7 +190,7 @@
         width: 24vw;
         margin-top: 4vw;
     }
-    
+
     .icon img {
         width: 5em;
         height: 5em;
@@ -191,17 +200,46 @@
         width: 3.2em;
         height: 3.2em;
     }
-    .cards_2{
+
+    .cards_2 {
         display: block;
         background-color: #fff;
     }
-    .card_2 img{
+
+    .card_2 img {
         height: 30em;
         display: block;
         margin: auto;
     }
-    .card_2 span{
+
+    .card_2 span {
         display: block;
         padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) and (max-height: 700px) {
+    .links li a {
+        width: 13vw;
+    }
+
+    .about {
+        margin-top: 12vh;
+    }
+
+    .about-img-1 {
+        margin-bottom: 2vh;
+    }
+
+    .about-img-1 {
+        height: 32vh;
+    }
+
+    .desc {
+        font-size: 3.2em;
+    }
+
+    .desc-1 {
+        font-size: 3em;
     }
 }

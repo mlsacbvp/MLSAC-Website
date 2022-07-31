@@ -1,53 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border: 2px solid red; */
 }
 
-body{
+body {
     /* background: linear-gradient(180deg, #1e3a61 0%, #113860 20%, #052a4a 55%, #041227 80%, #0d0d0d 100%); */
     background: #203A61;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
 }
 
-html{
+html {
     font-size: 10px;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* height: 18vh; */
     height: 16vh;
     position: sticky;
-    top:0px; /* this is needed for 'sticky' value to work accordingly */
+    top: 0px;
+    /* this is needed for 'sticky' value to work accordingly */
     z-index: 2;
     background: #203A61;
 }
 
-.logo img{
+.logo img {
     /* width: 46vw; */
     width: 33vw;
     /* height: 21vh; */
 }
 
-.links{
+.links {
     margin-bottom: 1vh;
 }
 
-.links li{
+.links li {
     list-style: none;
     display: inline-block;
 }
 
-.links ul{
+.links ul {
     margin-bottom: 0;
 }
 
-.links li a{
+.links li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,15 +69,15 @@ html{
     font-size: 2em;
     font-weight: 500;
     transition: transform 0.1s ease-in;
-    
+
 }
 
-.links li a:hover{
+.links li a:hover {
     transform: translateY(-0.3em);
     color: black;
 }
 
-.heading{
+.heading {
     /* font-size: 7em; */
     font-size: 5em;
     text-align: center;
@@ -84,7 +85,7 @@ html{
     font-weight: 700;
 }
 
-.heading p{
+.heading p {
     margin-bottom: 0;
 }
 
@@ -95,9 +96,10 @@ html{
     margin-bottom: 4vh;
     display: block;
     background: url("../aboutus_assets/about us-4.png");
+    background-repeat: no-repeat;
 }
 
-.desc{
+.desc {
     width: 54%;
     /* font-size: 2.7em; */
     font-size: 2em;
@@ -107,7 +109,7 @@ html{
     padding-top: 1em
 }
 
-.desc::after{
+.desc::after {
     position: absolute;
     width: 65%;
     height: 0.6vh;
@@ -117,7 +119,7 @@ html{
     left: 17.5%;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +128,7 @@ html{
     /* height: 80v; */
 }
 
-.card{
+.card {
     width: 90vw;
     /* border-radius: 3.7em; */
     border: none;
@@ -139,39 +141,39 @@ html{
     /* padding-top: 2em; */
 }
 
-.vis{
+.vis {
     margin-bottom: 10em;
     margin-top: 0;
     /* background: #00006A; */
-    
+
 }
 
-.vis-text{
+.vis-text {
     width: 38vw;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.vis-img img{
+.vis-img img {
     width: 39vw;
 }
 
-.desc-1{
+.desc-1 {
     /* font-size: 2.0em; */
     font-size: 2em;
     text-align: justify;
     margin-top: 0.5em;
 }
 
-.heading-1{
+.heading-1 {
     margin-bottom: 0.2em;
     /* font-size: 10em; */
     font-size: 5em;
 }
 
 
-.heading-contact{
+.heading-contact {
     margin: auto;
     font-size: 5em;
     width: fit-content;
@@ -179,7 +181,7 @@ html{
     position: relative;
 }
 
-.heading-contact::after{
+.heading-contact::after {
     content: "";
     width: 50%;
     height: 0.6vh;
@@ -189,7 +191,7 @@ html{
     left: 25%;
 }
 
-.contactus{
+.contactus {
     display: flex;
     justify-content: space-between;
     width: 66vw;
@@ -197,14 +199,14 @@ html{
     margin-top: 10em;
 }
 
-.item{
+.item {
     display: flex;
     flex-direction: column;
     width: 31%;
     align-items: center;
 }
 
-.icon img{
+.icon img {
     /* width: 7em;
     height: 7em; */
     width: 6em;
@@ -212,15 +214,15 @@ html{
     margin-bottom: 2.5vh;
 }
 
-.telephone img{
+.telephone img {
     transform: rotate(-54.63deg);
 }
 
-.icon-name{
+.icon-name {
     font-size: 1.3em;
 }
 
-.socials{
+.socials {
     display: flex;
     width: 16vw;
     margin: 7vh auto 0 auto;
@@ -228,29 +230,29 @@ html{
     align-items: center;
 }
 
-.socials a img{
+.socials a img {
     width: 4.2em;
     height: 4.2em;
 }
 
-.footer{
+.footer {
     text-align: center;
     width: fit-content;
     margin: 2em auto 0 auto;
     padding-bottom: 2em;
 }
 
-.footer span{
+.footer span {
     font-size: 1.3em;
     width: 100vw;
 }
 
-.bottom{
+.bottom {
     background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
 }
 
 
-.faq1{
+.faq1 {
     width: 82vw;
     border-radius: 0.5em;
     /* font-size: 2.3em; */
@@ -258,10 +260,10 @@ html{
     text-align: left;
     padding-left: 1em;
     margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.ques{
+.ques {
     background: white;
     min-height: 7vh;
     display: block;
@@ -269,33 +271,33 @@ html{
     transition: transform 0.2s ease-in;
 }
 
-.ques:hover{
+.ques:hover {
     box-shadow: black -10px 4px -2px 0;
 }
 
-.quesbar{
+.quesbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.quesbar span{
+.quesbar span {
     font-weight: 500;
 }
 
-.faqHead{
+.faqHead {
     margin-top: 2em;
     margin-bottom: 8vh;
     font-size: 5em;
 }
 
-.answer{
+.answer {
     padding: .375rem .75rem;
     padding-left: 1em;
     min-height: 12vh;
     background: #c8cdd5;
 }
 
-.cards_2{
+.cards_2 {
     display: none;
 }
