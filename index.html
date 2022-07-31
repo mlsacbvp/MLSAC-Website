@@ -17,14 +17,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="We, MLSAC (Microsoft Learn Student Ambassadors' Chapter), are a community of tech enthusiasts. We conduct sessions, organize workshops & hackathons while encapsulating the fun part of learning! Join us to make an impact through your skills while learning. Be a force for good!" />
-  <meta name="keyword" content="
+  <meta name="keyword"
+    content="
     Microsoft Learn Student Ambassadors' Chapter, Microsoft Learn Student Ambassadors' Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Learn Student Ambassadors' Chapter BVP, Microsoft Learn Student Ambassadors' Chapter BVCOE, Microsoft Learn Students Ambassadors' Chapter, Microsoft Lear Students Ambassadors' Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Learn Students Ambassadors' Chapter BVP, Microsoft Learn Students Ambassadors' Chapter BVCOE, Microsoft Learn Student Ambassadors Chapter, Microsoft Learn Student Ambassadors Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Learn Student Ambassadors Chapter BVP, Microsoft Learn Student Ambassadors Chapter BVCOE, Microsoft Learn Students Ambassadors Chapter, Microsoft Learn Students Ambassadors Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Learn Students Ambassadors Chapter BVP, Microsoft Learn Students Ambassadors Chapter BVCOE, Microsoft Learn Student Chapter, Microsoft Learn Student Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Learn Student Chapter BVP, Microsoft Learn Student Chapter BVCOE, Microsoft Student Chapter, Microsoft Student Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Student Chapter BVP, Microsoft Student Chapter BVCOE, Microsoft Chapter, Microsoft Chapter Bharati Vidyapeeth's College of Engineering, Microsoft Chapter BVP, Microsoft Chapter BVCOE, Microsoft Student Community, MLSC, MLSAC, MLSC BVP, MLSC BVCOE, MLSAC BVP, MLSAC BVCOE, MLSC-BVP, MLSC-BVCOE, MLSAC-BVP, MLSAC-BVCOE, BVP MLSC, BVCOE MLSC, BVP MLSAC, BVCOE MLSAC, BVP-MLSC, BVCOE-MLSC, BVP-MLSAC, BVCOE-MLSAC" />
   <meta name="author" content="MLSAC-BVP" />
   <meta name="google-site-verification" content="qvI8NqJa-wzdpJpDVIn1jiyBBxsjEhyRpppQUu7mKmM" />
   <link rel="canonical" href="https://mlsac-website.vercel.app" />
   <meta name="url" content="https://mlsac-website.vercel.app" />
-  <link rel="stylesheet" href="MLSAC Home page/css/home.css" />
-  <link rel="stylesheet" href="MLSAC Home page/css/responsive.css">
   <link rel="shortcut icon" href="Teams/assets/favicon.ico" type="image/x-icon">
   <meta name="image" content="https://mlsac-website.vercel.app/aboutus/aboutus_assets/MLSCLogo.png" />
   <meta property="og:site_name" content="MLSAC BVP" />
@@ -34,11 +33,25 @@
   <meta property="og:description"
     content="We, MLSAC (Microsoft Learn Student Ambassadors' Chapter), are a community of tech enthusiasts. We conduct sessions, organize workshops & hackathons while encapsulating the fun part of learning! Join us to make an impact through your skills while learning. Be a force for good!" />
   <meta property="og:image" content="https://mlsac-website.vercel.app/aboutus/aboutus_assets/MLSCLogo.png" />
+
+  <link rel="stylesheet" href="MLSAC Home page/css/home.css" />
+  <link rel="stylesheet" href="MLSAC Home page/css/responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
   <div class="loading">
     <video class="bg" id="loadVideo" src="MLSAC Home page/images/background.mp4" autoplay muted></video>
+  </div>
+
+  <div class="phone-loading">
+    <div class="logo-badge_vector" data-aos="zoom-in">
+      <img src="./MLSAC Home page/images/badge.png" alt="Badge icon" class="logo-badge_img">
+    </div>
+
+    <div class="logo-text_vector" id="logo-text" data-aos="fade-up" data-aos-delay="1000">
+      <img src="./MLSAC Home page/images/text1.png" alt="Text icon" class="logo-text_img">
+    </div>
   </div>
 
   <div class="main">
@@ -69,6 +82,12 @@
   </div>
 
   <script src="MLSAC Home page/home.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2400,
+    });
+  </script>
 </body>
 
 </html>
