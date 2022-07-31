@@ -8,6 +8,7 @@ if (window.matchMedia("(max-width:500px)").matches) {
     //     window.location = "aboutus.html"
     // })
 
+
     LoadText.addEventListener("transitionend", function () {
         setTimeout(() => {
             window.location = "aboutus.html";
