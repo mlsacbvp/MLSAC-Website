@@ -1,17 +1,21 @@
-@media screen and (max-width: 450px){
-    .landing-page{
+@media screen and (max-width: 450px) {
+    .events {
+        padding: 12em 0 18em 0;
+    }
+
+    .landing-page {
         padding-bottom: 0em;
         padding-top: 8em;
         height: 20vh;
     }
 
-    .page-desc::after{
+    .page-desc::after {
         bottom: 54vh;
         width: 63vw;
         height: 0.3vh;
     }
 
-    .landing-page img{
+    .landing-page img {
         display: block;
         object-fit: contain;
         margin: auto;
@@ -21,22 +25,23 @@
         left: 0em;
     }
 
-    #img-1{
+    #img-1 {
         height: 30vh;
         width: 80vw;
         position: relative;
         top: -13em;
     }
 
-    #img-2, #img-3{
+    #img-2,
+    #img-3 {
         display: none;
     }
 
-    .container{
+    .container {
         padding-bottom: 5em;
     }
 
-    .page-desc{
+    .page-desc {
         padding: 1rem 11rem 6rem 11rem;
         font-size: 2.6em;
     }
@@ -46,40 +51,47 @@
         height: 40vh;
     } */
 
-    .past-events{
-        padding-bottom: 37em;
+    .event-details {
+        width: 90%;
+        word-spacing: normal;
+        text-align: left;
     }
 
-    .past-photo{
+    .past-events {
+        height: 80vh;
+    }
+
+    .past-photo {
         /* object-fit: cover; */
-        height:48rem;
+        height: 48rem;
         width: 38rem;
     }
-    
-    .heading{
+
+    .heading {
         padding: 0;
-        padding-bottom: 4rem;
+        padding-bottom: 7rem;
         height: 6vh;
     }
 
-    .heading h2{
+    .heading h2 {
         font-size: 6rem;
     }
 
-    .card{
-        zoom:1.2;
+    .card {
+        zoom: 1.2;
     }
 
-    .past-heading{
+    .past-heading {
         font-size: 6rem;
     }
 
-    .past-title{
+    .past-title {
         font-size: 4.1rem;
     }
 
-    .past-card{
-        zoom:1.2;
+    .past-card {
+        zoom: 1.2;
+        height: auto;
     }
 
     .socials {
@@ -87,7 +99,7 @@
         margin-top: 4vw;
         font-size: 4px;
     }
-    
+
     .icon img {
         width: 5em;
         height: 5em;
@@ -98,73 +110,78 @@
         height: 3.2em;
     }
 
-    .prev, .next{
+    .prev,
+    .next {
         margin-top: 52px;
     }
 
-    .main-heading{
+    .main-heading {
         font-size: 4em;
         border: none;
         outline: 0;
     }
 
-    .page-desc{
+    .page-desc {
         font-size: 3em;
     }
 
-    .event-desc{
+    .event-desc {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .event-details{
+    .event-details {
         padding-top: 2vh;
     }
 
-    .event-poster{
-        height: 31vh;
+    .event-poster {
         width: 70vw;
     }
 
-    .poster{
+    .poster {
         justify-content: center;
-        height: 35vh;
         width: 70vw;
         padding-top: 0;
     }
 
-    .event-name h3{
+    .event-name h2 {
         font-size: 6rem;
+        font-weight: 600;
     }
 
-    .event-info{
+    .event-info {
         width: 85vw;
         padding-top: 2vh;
     }
 
-    .event-details pre{
+    .event-details pre {
         font-size: 3.5rem;
     }
 
-    .register{
-        width: 30vw;
-        height: 2em;
-        font-size: 0.8em;
+    .cta {
+        margin-top: 8em;
     }
 
-    .past-event-poster figcaption{
+    .register {
+        border-radius: 5rem;
         width: 50vw;
-        font-size: 2.5rem;
+        height: 2.5em;
+        font-size: 3.5em;
     }
 
-    .cta{
-        margin-top: 5em;
+    .register-btn_text {
+        font-size: 3.5rem;
     }
 
-    .bottom{
+    .past-event-poster figcaption {
+        width: 50vw;
+        font-size: 3rem;
+    }
+
+    .bottom {
         padding-top: 1em;
     }
 
-    
+
 }

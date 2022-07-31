@@ -1,48 +1,43 @@
-.event-desc{
+.event-desc {
     padding: 0;
     /* flex-direction: column; */
     align-items: center;
 }
 
-.poster{
+.poster {
     width: 100%;
     padding-top: 4vh;
 }
 
-.event-poster{
+.event-poster {
     padding-right: 0;
     width: 80%;
 }
 
-.event-info{
+.event-info {
     width: 100%;
     padding-top: 5vh;
 }
 
-.event-name{
+.event-name {
     width: 80%;
     text-align: center;
 }
 
-.event-name h3{
+.event-name h3 {
     font-size: 7.5rem;
 }
 
-pre{
+pre {
     line-height: normal;
     font-size: 3.3rem;
     text-align: center;
 }
 
-.event-details{
+.event-details {
     width: 80%;
 }
 
-.cta{
+.cta {
     margin-top: 10em;
-}
-
-.register{
-    width: 30vw;
-    height: 4vh;
 }
