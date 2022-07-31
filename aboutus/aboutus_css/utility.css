@@ -94,7 +94,7 @@
     }
 
     .desc {
-        font-size: 4.7em;
+        font-size: 4.5em;
         width: 90%;
         margin-top: 0em;
         text-align: center;
@@ -159,6 +159,12 @@
 
     .contactus {
         margin-top: 5vh;
+        zoom: 1.3;
+        text-align: center;
+    }
+
+    .contactus br {
+        display: none;
     }
 
     .answer {
@@ -168,7 +174,8 @@
 
     .faq1 {
         width: 87vw;
-        font-size: 3em;
+        font-size: 3.7em;
+        padding: 5px 10px;
     }
 
     .heading-contact {
@@ -236,10 +243,6 @@
     }
 
     .desc {
-        font-size: 3.2em;
-    }
-
-    .desc-1 {
-        font-size: 3em;
+        font-size: 3.7em;
     }
 }
