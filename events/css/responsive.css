@@ -5,8 +5,7 @@
 
     .landing-page {
         padding-bottom: 0em;
-        padding-top: 8em;
-        height: 20vh;
+        padding-top: 3em;
     }
 
     .page-desc::after {
@@ -29,7 +28,6 @@
         height: 30vh;
         width: 80vw;
         position: relative;
-        top: -13em;
     }
 
     #img-2,

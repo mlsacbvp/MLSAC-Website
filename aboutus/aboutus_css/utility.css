@@ -214,7 +214,7 @@
     }
 
     .card_2 img {
-        height: 30em;
+        width: 90%;
         display: block;
         margin: auto;
     }
