@@ -1,0 +1,5 @@
+User-agent: Googlebot
+Disallow: /Teams/TeamMembers/
+Disallow: /Teams/TeamMembers/*.png
+Disallow: /Teams/TeamMembers/*.jpeg
+Disallow: /Teams/TeamMembers/*.jpg
