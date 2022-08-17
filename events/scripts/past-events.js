@@ -26,7 +26,7 @@ var pastEvents = [
     Desc:"Nexus 2.0 was an event of MLSAC to welcome the incoming freshers. We organized 5 fun events, which received positive responses from everyone. They were Family Feud, Murder Mystery Chase The Killer, Harry Potter Quiz, and Logo Quiz."
   }, {
     Poster:"events/assets/events/design sprint.jpeg",
-    Name:"Beat The Base",
+    Name:"Beat The Base Returns",
     Desc:"A Machine learning based model accuracy predictor. Participants were given a set of data and a base model to start with. The aim was to improve the accuracy of the existing model."
   }, {
     Poster:"events/assets/events/beatthebase.jpeg",
