@@ -58,7 +58,7 @@ var pastEvents = [
     Desc:"to get the locked-down freshers started with their journey, a bootcamp on Machine Learning was organised to get them started with the field. various hands on projects were discussed to establish a better grip on the topic."
   }, {
     Poster:"events/assets/events/python-monday.jpg",
-    Name:"past-photo",
+    Name:"Python Mondays",
     Desc:"A weekly sesssion on Python basics to guide the new ones about the ever growing language - Python."
   }
 ]
