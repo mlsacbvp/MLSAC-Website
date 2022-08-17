@@ -93,7 +93,7 @@
 }
 
 .event-poster img{
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .card {
