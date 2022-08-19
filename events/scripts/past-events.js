@@ -15,7 +15,7 @@ var pastEvents = [
   }, {
     Poster:"events/assets/events/btc.jpeg",
     Name:"Beyond The Curriculum",
-    Desc:"Microsoft Learn Student Ambassadors Chapter is back with a webinar Beyond The Curricullum and will talk on how to not waste 4 years of college getting just a degree."
+    Desc:"Microsoft Learn Student Ambassadors Chapter is back with a webinar Beyond The Curriculum and will talk on how to not waste 4 years of college getting just a degree."
   }, {
     Poster:"events/assets/python'scool.jpeg",
     Name:"Python S'Cool",
