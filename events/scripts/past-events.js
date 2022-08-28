@@ -63,6 +63,25 @@ var pastEvents = [
   }
 ]
 
+var mainEvent = [
+  { // fallback event for coming soon
+    Poster: "events/assets/Webdverse.jpeg", // Add A fallbak image
+    Name: "Coming soon",
+    Desc: `
+    Hello there , We are coming soon
+    `
+  }, { // the actual event ot Fresh event
+    Poster: "events/assets/Webdverse.jpeg",
+    Name: "WEB- D - VERSE",
+    Desc: `
+    In celebration of its 2nd anniversary, MLSAC-BVP is back with something exciting in store for you all!
+We're weaving a web full of thrill and exposure. Surely you will get a different taste of WEB.
+REGISTER NOW...!!`
+  }
+];
+
+
+
 htmlCode = ``;
 
 pastEvents.forEach(function(pastEvent){
@@ -80,8 +99,37 @@ pastEvents.forEach(function(pastEvent){
 
 document.getElementById("past-events-details").innerHTML = htmlCode;
 
+// for the Upcoming event automation 
+var upcomeEventHtmlCode = ``;
+upcomeEventHtmlCode += ` 
+  <div class="poster">
+        <img src="${mainEvent[0].Poster}" alt="join team poster" class="event-poster" />
+      </div>
 
-function slider(){
+      <div class="event-info">
+        <div class="event-name">
+          <h2>
+            ${mainEvent[0].Name}
+          </h2>
+        </div>
+        <div class="event-details">
+          <pre>${mainEvent[0].Desc}</pre>
+        </div>
+  </div>
+`
+
+document.getElementById("event-desc").innerHTML = upcomeEventHtmlCode;
+
+// Check if communty event is stale and change registration button to Text
+var boolStaleComEvent = true; //change to false if fresh event
+
+if (boolStaleComEvent) { // for Registration button to go stale if event is done
+  Html = `<pre><h2>Coming SOON ...</h2></pre>`
+  document.getElementById("EventRegButton").innerHTML = Html
+};
+
+
+function slider() {
 
   // initialising slider
   let slides = document.getElementsByClassName("past-card");
