@@ -63,8 +63,26 @@ var pastEvents = [
   }
 ]
 
-htmlCode = ``;
+var mainEvent = [
+  { // fallback event for coming soon
+    Poster: "events/assets/Webdverse.jpeg", // Add A fallbak image
+    Name: "Coming soon",
+    Desc: `Hello there , We are coming soon with more fun events for You.
+Please stay tuned to get to know about such opportunities in the future.`,
+    dateComEvent: `2022-01-01`, //yyyy-mm-dd,
+    link: `#`
+  }, { // the actual event ot Fresh event
+    Poster: "events/assets/Webdverse.jpeg",
+    Name: "WEB- D - VERSE",
+    Desc: `In celebration of its 2nd anniversary, MLSAC-BVP is back with something exciting in store for you all!
+We're weaving a web full of thrill and exposure. Surely you will get a different taste of WEB.
+REGISTER NOW...!!`,
+    dateComEvent: `2022-08-17`,
+    link: `https://unstop.com/hackathon/web-d-verse-bharati-vidyapeeths-college-of-engineering-bvcoe-new-delhi-404419?lb=w7fprHy`
+  }
+];
 
+htmlCode = ``;
 pastEvents.forEach(function(pastEvent){
     htmlCode = htmlCode + `
     <div class="past-card">
@@ -80,8 +98,50 @@ pastEvents.forEach(function(pastEvent){
 
 document.getElementById("past-events-details").innerHTML = htmlCode;
 
+// for the Upcoming event automation 
+var upcomeEventHtmlCode = ``;
 
-function slider(){
+var checkEventDatefreshness = (eventDate) => { // please add date in yyyy-mm-dd formate
+  var TodayDate = new Date().getTime();
+  var eveDate = new Date(eventDate).getTime();
+  if (TodayDate >= eveDate) {
+    return 0;
+  }
+  return 1;
+}
+
+var CommEventToggle = checkEventDatefreshness(mainEvent[1].dateComEvent); // true for fresh && false for Stale community event
+upcomeEventHtmlCode += ` 
+  <div class="poster">
+        <img src="${mainEvent[CommEventToggle].Poster}" alt="join team poster" class="event-poster" />
+      </div>
+
+      <div class="event-info">
+        <div class="event-name">
+          <h2>
+            ${mainEvent[CommEventToggle].Name}
+          </h2>
+        </div>
+        <div class="event-details">
+          <pre>${mainEvent[CommEventToggle].Desc}</pre>
+        </div>
+  </div>
+`
+
+document.getElementById("event-desc").innerHTML = upcomeEventHtmlCode;
+
+// Check if communty event is stale and change registration button to Text
+if (!CommEventToggle) { // for Registration button to go stale if event is done
+  Html = `  <button class="register" disabled>
+  <a ${!CommEventToggle ? `` : `href=${mainEvent[CommEventToggle].link}`} target="_blank" class="register-btn_text">
+  COMING SOON
+  </a>
+  <!-- once registrations starts, this button will be updated with the registration link -->
+</button>`
+  document.getElementById("EventRegButton").innerHTML = Html
+};
+
+function slider() {
 
   // initialising slider
   let slides = document.getElementsByClassName("past-card");
