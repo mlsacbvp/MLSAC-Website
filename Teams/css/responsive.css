@@ -67,7 +67,9 @@
     }
 
     .fac-socials a img {
-        margin: 0 0.6em;
+        margin: 1rem 1.5rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .fac-desc {
