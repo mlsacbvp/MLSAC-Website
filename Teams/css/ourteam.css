@@ -1,51 +1,52 @@
-*{
+* {
   margin: 0px;
-  padding:0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
-body{
+body {
   /* background: #203A61; */
   background: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
 }
 
-html{
+html {
   font-size: 10px;
 }
 
 /* Navbar Styling */
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 16vh;
   position: sticky;
-  top:0px; /* this is needed for 'sticky' value to work accordingly */
+  top: 0px;
+  /* this is needed for 'sticky' value to work accordingly */
   z-index: 4;
   background: #203A61;
 }
 
-.logo img{
+.logo img {
   width: 33vw;
 }
 
-.links{
+.links {
   margin-bottom: 1vh;
 }
 
-.links ul{
+.links ul {
   margin-bottom: 0;
 }
 
-.links li{
+.links li {
   list-style: none;
   display: inline-block;
 }
 
-.links li a{
+.links li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,18 +59,18 @@ html{
   text-align: center;
   text-decoration: none;
   font-size: 2em;
-  font-weight:500;
-  transition: transform 0.1s ease-in; 
+  font-weight: 500;
+  transition: transform 0.1s ease-in;
 }
 
-.links li a:hover{
+.links li a:hover {
   transform: translateY(-0.3em);
   color: black;
 }
 
 /* know us section styling */
 
-.heading-main{
+.heading-main {
   padding-top: 0.5em;
   font-size: 5em;
   font-weight: 700;
@@ -78,12 +79,12 @@ html{
   display: block;
 }
 
-.know{
+.know {
   background: white;
   height: auto;
 }
 
-.knowUs img{
+.knowUs img {
   width: 60%;
   /* height: 60vh; */
   margin: auto;
@@ -93,18 +94,18 @@ html{
   left: -6em;
 }
 
-.space-img{
+.space-img {
   margin: 6em 0;
   /* padding-bottom: 3em; */
   display: flex;
   justify-content: center;
 }
 
-.space{
+.space {
   margin-right: 13em;
 }
 
-.space img{
+.space img {
   width: 20vw;
   height: 36vh;
   border-radius: 6em;
@@ -112,7 +113,7 @@ html{
   display: block;
 }
 
-.sanddunes img{
+.sanddunes img {
   width: 49vw;
   height: 36vh;
   border-radius: 6em;
@@ -120,15 +121,17 @@ html{
 
 /* Statistics Styling */
 
-.info-mission{
+.info-mission {
   display: flex;
   justify-content: space-evenly;
-  background: linear-gradient(to right, #114357 , #2980b9);
+  background: linear-gradient(to right, #114357, #2980b9);
   color: white;
   padding: 1.4em 0;
 }
 
-.year,.events-num,.info-space{
+.year,
+.events-num,
+.info-space {
   display: flex;
   flex-direction: column;
   font-weight: 500;
@@ -138,7 +141,7 @@ html{
 
 /* faculty Mentor Styling */
 
-.family{
+.family {
   text-align: center;
   background: white;
   font-size: 5em;
@@ -146,7 +149,7 @@ html{
   padding: 1.2em 0;
 }
 
-.faculty{
+.faculty {
   font-size: 4em;
   font-weight: 600;
   background: white;
@@ -155,65 +158,63 @@ html{
   text-align: center;
 }
 
-.fac-mentor{
+.fac-mentor {
   display: flex;
   background: white;
-  align-items: flex-start;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.fac-photo{
+.fac-photo {
   display: flex;
   flex-direction: column;
-  margin-left: 7em;
 }
 
-.fac-face{
-  width: 21vw;
-  height: 22vw;
+.fac-face {
+  width: 25vw;
+  height: 26vw;
   border-radius: 21vw;
   overflow: hidden;
 }
 
-.fac-face img{
-  width: 21vw;
+.fac-face img {
+  width: 100%;
 }
 
-.fac-socials{
+.fac-socials {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2em;
 }
 
-.fac-socials a img{
+.fac-socials a img {
   width: 3.5em;
   height: 3.5em;
-  margin-right: 1.5em;
+  margin: 0 0.75em;
 }
 
-.fac-desc{
+.fac-desc {
   width: 60%;
   margin: 0 auto;
-  padding-right: 4em;
+  text-align: center;
 }
 
-.fac-name{
+.fac-name {
   font-size: 3.5em;
   font-weight: 700;
-  text-align: center;
-  padding: 0.6em 0;
-  padding-top: 1.3em;
+  padding: 0.2em 0;
+  padding-top: 1em;
 }
 
-.fac-info{
-  text-align: justify;
+.fac-info {
   font-size: 2em;
 }
 
 /* student mentor styling */
 
-.mentor{
+.mentor {
   font-size: 4em;
   font-weight: 600;
   text-align: center;
@@ -223,7 +224,7 @@ html{
 
 }
 
-.stud-mentor{
+.stud-mentor {
   display: flex;
   flex-wrap: wrap;
   background: white;
@@ -231,13 +232,13 @@ html{
   padding-bottom: 5em;
 }
 
-.stud{
+.stud {
   width: 25vw;
   height: 40vh;
   margin: 1em 5em;
 }
 
-.stud-pic{
+.stud-pic {
   height: 19em;
   width: 18em;
   border-radius: 18em;
@@ -247,14 +248,14 @@ html{
   overflow: hidden;
 }
 
-.stud-pic img{
+.stud-pic img {
   height: 19em;
   width: 18em;
   border-radius: 18em;
   margin: auto;
 }
 
-.stud-pic::after{
+.stud-pic::after {
   content: "";
   background: rgba(0, 0, 0, 0.65);
   height: 19em;
@@ -268,16 +269,16 @@ html{
   transition: all 0.55s ease;
 }
 
-.stud-pic:hover::after{
+.stud-pic:hover::after {
   opacity: 1;
   top: 0;
 }
 
-.stud-pic:hover .stud-social{
+.stud-pic:hover .stud-social {
   top: 40%;
 }
 
-.stud-social{
+.stud-social {
   list-style: none;
   text-align: center;
   width: 100%;
@@ -289,33 +290,33 @@ html{
   transition: all 0.55s ease;
 }
 
-.stud-social li{
+.stud-social li {
   display: inline-block;
 }
 
-.stud-social li a{
+.stud-social li a {
   text-decoration: none;
 }
 
-.stud-social li a i{
+.stud-social li a i {
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
   margin: 0 5px;
   font-size: 4em;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
-.stud-name{
+.stud-name {
   margin-top: em;
   font-size: 2em;
   text-align: center;
   font-weight: 700;
   color: #203A61;
-  
+
 }
 
-.stud-quote{
+.stud-quote {
   font-size: 1.3em;
   text-align: center;
   font-weight: 700;
@@ -330,18 +331,18 @@ html{
   font-size: 4.5em;
 } */
 
-.stud-team{
+.stud-team {
   background: none;
   padding-bottom: 0;
 }
 
-.exec{
+.exec {
   margin: 2em 2em;
   height: 33em;
   width: 21vw;
 }
 
-.exec-pic{
+.exec-pic {
   border-radius: 0;
   height: 25em;
   width: 20em;
@@ -349,46 +350,47 @@ html{
   background: white;
 }
 
-.exec-pic img{
+.exec-pic img {
   border-radius: 0;
   height: 25em;
   width: 20em;
   object-fit: cover;
 }
 
-.exec-name,.exec-title {
+.exec-name,
+.exec-title {
   color: white;
 }
 
-.exec-title{
+.exec-title {
   text-align: center;
 }
 
-.slider{
+.slider {
   background: #203A61;
 }
 
 /* carousel styling */
 
-.carousel{
+.carousel {
   background: #203A61;
   overflow: visible;
   padding-top: 1em;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
   left: 8em;
   width: auto;
 }
 
-.carousel-control-next{
+.carousel-control-next {
   right: 8em;
   width: auto;
 }
 
 /* carousel slide sytling */
 
-.team-name{
+.team-name {
   color: white;
   font-size: 4em;
   text-align: center;
@@ -396,14 +398,14 @@ html{
   font-weight: 500;
 }
 
-.team{
+.team {
   width: fit-content;
   margin: auto;
   margin-top: 3em;
   display: flex;
 }
 
-.member{
+.member {
   /* border: 2px solid red; */
   margin: 1em 2em;
   width: 14vw;
@@ -412,32 +414,32 @@ html{
   position: relative;
 }
 
-.member::after{
+.member::after {
   position: absolute;
   content: "";
   width: 14vw;
   height: 38vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
   /* background: rgba(0, 0, 0, 0.65); */
   opacity: 0.7;
   top: 0;
   transition: all 0.6s ease;
 }
 
-.member:hover::after{
+.member:hover::after {
   opacity: 0.4;
   transform: translateY(-5px);
 }
 
-.odd{
+.odd {
   /* margin-bottom: 4em; */
 }
 
-.even{
- /* margin-top: 4em; */
+.even {
+  /* margin-top: 4em; */
 }
 
-.member img{
+.member img {
   object-fit: cover;
   width: 14vw;
   height: 38vh;
@@ -445,12 +447,12 @@ html{
   /* box-shadow: -2px -2px 2px rgb(255, 255, 255); */
 }
 
-.member:hover img{
+.member:hover img {
   transform: translateY(-5px);
   border-bottom: 0;
 }
 
-.mem-desc{
+.mem-desc {
   height: 7vh;
   position: relative;
   transition: all 0.6s ease 0.2s;
@@ -460,36 +462,36 @@ html{
   text-align: center;
 }
 
-.member:hover .mem-desc{
+.member:hover .mem-desc {
   transform: translateY(-19px);
   opacity: 0.92;
 }
 
-.mem-name{
+.mem-name {
   font-size: 1.8em;
   color: rgb(255, 255, 255);
   z-index: 1;
 }
 
-.mem-socials{
+.mem-socials {
   height: 3vh;
 }
 
-.mem-socials ul{
+.mem-socials ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.mem-socials ul li{
+.mem-socials ul li {
   display: inline-block;
 }
 
-.mem-socials ul li a{
+.mem-socials ul li a {
   text-decoration: none;
 }
 
-.mem-socials ul li a i{
+.mem-socials ul li a i {
   font-size: 2.5em;
   color: white;
   margin-right: 0.3em;
@@ -517,12 +519,12 @@ html{
 
 /* styling for footer section */
 
-.socials i{
+.socials i {
   color: white;
   font-size: 4.2rem;
 }
 
-.socials{
+.socials {
   display: flex;
   width: 16vw;
   margin: 7vh auto 0 auto;
@@ -531,77 +533,86 @@ html{
   height: 30px;
 }
 
-.footer{
+.footer {
   text-align: center;
   width: fit-content;
   margin: 2em auto 0 auto;
   padding-bottom: 2em;
 }
 
-.footer span{
+.footer span {
   font-size: 1.3em;
 }
 
-.bottom{
+.bottom {
   padding-top: 2em;
   background: linear-gradient(180deg, rgba(92, 45, 145, 0) 0%, #0E0E0E 80.21%);
 }
 
 /* old styling */
 
-.container1{
-    padding-top: 30px;
-    
+.container1 {
+  padding-top: 30px;
+
 }
 
 /* .member{
     clip-path: circle();
 } */
-.item1{
-padding-left: 360px;
+.item1 {
+  padding-left: 360px;
 }
-.item2{
+
+.item2 {
   padding-left: 85px;
   padding-top: 30px;
 
 }
 
-.item4{
+.item4 {
   padding-left: 0px;
   margin-left: 0px;
 }
-.item5{
+
+.item5 {
   padding-left: 130px;
-  
+
 }
-.item7{
- padding-left: 400px;
- 
+
+.item7 {
+  padding-left: 400px;
+
 }
-.item8{
+
+.item8 {
   padding-left: 60px;
   padding-right: 0px;
 }
-.studentmentor{
+
+.studentmentor {
   padding-left: 85px;
   padding-top: 30px;
 
 }
-.container4{
+
+.container4 {
   padding-left: 125px;
 }
-.container7{
+
+.container7 {
   padding-left: 370px;
 }
-.item9{
- padding-left: 25px;
-}
-.item10{
- padding-top: -1000px;
- padding-left: 550px;
+
+.item9 {
+  padding-left: 25px;
 }
 
-.item{
+.item10 {
+  padding-top: -1000px;
+  padding-left: 550px;
+}
+
+.item {
   display: flex;
   flex-direction: column;
   width: 31%;
