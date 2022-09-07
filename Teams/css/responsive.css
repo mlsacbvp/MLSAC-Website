@@ -1,128 +1,132 @@
-@media screen and (max-width: 450px){
-    html{
+@media screen and (max-width: 450px) {
+    html {
         font-size: 4px;
     }
-    
-    .header{
+
+    .header {
         height: 7vh;
     }
 
-    .logo img{
+    .logo img {
         width: 46vw;
     }
-    
+
     .links {
         margin-bottom: 0vh;
     }
-    
-    .links li a{
+
+    .links li a {
         height: 2em;
         font-size: 2em;
         width: 12vw;
     }
-    
-    .links li a:hover{
+
+    .links li a:hover {
         transform: translateY(0);
         color: black;
     }
-    
-    .knowUs img{
+
+    .knowUs img {
         height: auto;
         width: 95%;
         object-fit: contain;
         margin-bottom: 2vh;
     }
 
-    .heading-main{
+    .heading-main {
         font-size: 5.5em;
     }
 
-    .space img{
+    .space img {
         width: 24vw;
         height: 13vh;
     }
 
-    .sanddunes img{
+    .sanddunes img {
         height: 13vh;
         width: 42vw;
     }
 
-    .family{
+    .family {
         font-size: 6em;
         padding: 1.5em 0;
     }
 
-    .faculty{
+    .faculty {
         font-size: 5.5em;
     }
 
-    .fac-mentor{
+    .fac-mentor {
         align-items: center;
         flex-direction: column;
     }
-    
-    .fac-photo{
+
+    .fac-photo {
         margin: 0;
         zoom: 2.2;
     }
 
-    .fac-socials a img{
+    .fac-socials a img {
         margin: 0 0.6em;
     }
 
-    .fac-desc{
+    .fac-desc {
         width: 70%;
         padding-right: 0;
     }
 
-    .fac-name{
+    .fac-name {
         font-size: 5em;
     }
 
-    .fac-info{
+    .fac-info {
         font-size: 2.8em;
     }
 
-    .mentor{
+    .fac-info br {
+        display: none;
+    }
+
+    .mentor {
         font-size: 5.5em;
         padding: 1.5em 0;
         margin-top: 0.8em;
     }
 
-    .stud{
+    .stud {
         width: 23vw;
         height: 16vh;
         zoom: 1.4;
     }
 
-    .stud-mentor{
+    .stud-mentor {
         padding-bottom: 1em;
     }
 
-    .carousel{
+    .carousel {
         padding-top: 0vh;
     }
 
-    .team-name{
+    .team-name {
         padding-bottom: 0.3em;
     }
 
-    .member{
+    .member {
         height: 14vh;
         width: 13vw;
     }
 
-    .member img{
+    .member img {
         height: 12vh;
         width: 13vw;
     }
 
-    .member::after{
+    .member::after {
         height: 12vh;
         width: 13vw;
     }
 
-    .mem-desc{
+    .mem-desc {
         height: 3vh;
         transform: translateY(-6px);
     }
@@ -139,7 +143,7 @@
         font-size: 2em;
     }
 
-    .slider{
+    .slider {
         padding-top: 4em;
         margin-top: -5em;
     }
@@ -149,28 +153,29 @@
         zoom: 0.5;
     }
 
-    .carousel-control-next, .carousel-control-prev {
+    .carousel-control-next,
+    .carousel-control-prev {
         top: 10em;
     }
 
-    .carousel-control-next{
+    .carousel-control-next {
         right: 4em;
     }
 
-    .carousel-control-prev{
+    .carousel-control-prev {
         left: 4em;
     }
 
-    .bottom{
+    .bottom {
         padding-top: 5em;
     }
 
-    .socials a i{
+    .socials a i {
         font-size: 3.3rem;
         margin: 0px 9px;
     }
-    
-    .socials{
+
+    .socials {
         justify-content: center;
         height: auto;
         margin-top: 2vh;
