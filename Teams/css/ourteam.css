@@ -72,7 +72,7 @@ html {
 
 .heading-main {
   padding-top: 0.5em;
-  font-size: 5em;
+  font-size: 5rem;
   font-weight: 700;
   text-align: center;
   color: #2D2D83;
@@ -144,7 +144,7 @@ html {
 .family {
   text-align: center;
   background: white;
-  font-size: 5em;
+  font-size: 4rem;
   font-weight: 700;
   padding: 1.2em 0;
 }
