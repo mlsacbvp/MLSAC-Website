@@ -253,6 +253,7 @@ html {
   width: 18em;
   border-radius: 18em;
   margin: auto;
+  object-fit: cover;
 }
 
 .stud-pic::after {
