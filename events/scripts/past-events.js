@@ -1,5 +1,10 @@
 var pastEvents = [
   {
+    Poster: "events/assets/events/MLSAC-UTSAV.jfif",
+    Name: "MLSAC-UTSAV",
+    Desc: "Happiness can be found even in the darkest of times, when one only remembers to turn on the light. MLSAC UTSAV was all about spreading joy through various fun filled games with exciting prizes for the top scorers"
+  },
+  {
     Poster: "events/assets/events/Web_D_Verse.png",
     Name: "Web-D-Verse",
     Desc: "A 2-day event organised by MLSAC-BVP, in the celebration of our second anniversary. Through this event, participants were able to experience a corporate environment, deal with clients and make specially curated websites for them."
