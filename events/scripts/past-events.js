@@ -93,18 +93,19 @@ document.getElementById("past-events-details").innerHTML = htmlCode;
 
 var mainEvent = [
   { // fallback event
-    Poster: "events/assets/events/fallback.jpeg", // Add A fallbak image
+    Poster: "events/assets/events/fallback.jpeg",
     Name: "Join Us",
     Desc: `Hey, many great events are planned for you. Stay tuned to get to know about such opportunities in the future.`,
-    dateComEvent: `2022-01-01`, //yyyy-mm-dd,
+    Btntext: 'Coming Soon',
+    dateComEvent: `2022-01-01`, // please add date in yyyy-mm-dd formate
     link: `#`
   },
   { // upcoming event
     Poster: "events/assets/events/join-core-1.jpeg",
-    Name: "Join Us",
-    Desc: `We, at Microsoft Learn Student Ambassadors' Chapter has conducted events in various domains;
-    ranging from Open-Source, ML, Business Pitching, DevOps, Web Dev to a lot of fun events. Join our group to stay updated with more such opportunities`,
-    dateComEvent: `2022-12-10`,
+    Name: "Connect with Us",
+    Desc: `Do you want to know more about us? Join our group to stay updated by clicking on the button below`,
+    Btntext: 'Join Us',
+    dateComEvent: `2022-11-10`,
     link: `https://chat.whatsapp.com/BLcwUfH7Gwv4MXf9GjpKk6r`
   }
 ];
@@ -112,7 +113,7 @@ var mainEvent = [
 var upcomingEventHtmlCode = ``;
 
 // function for checking if the event is expired or not
-var checkEventDatefreshness = (eventDate) => { // please add date in yyyy-mm-dd formate
+var checkEventDatefreshness = (eventDate) => {
   var TodayDate = new Date().getTime();
   var eveDate = new Date(eventDate).getTime();
 
@@ -148,27 +149,22 @@ upcomingEventHtmlCode += `
 
 document.getElementById("event-desc").innerHTML = upcomingEventHtmlCode;
 
-// Check if communty event is stale and change registration button to Text
-if (!CommEventToggle) { // for Registration button to go stale if event is done
-  Html = `  <button class="register" disabled>
-  <a ${!CommEventToggle ? `` : `href=${mainEvent[CommEventToggle].link}`} target="_blank" class="register-btn_text">
-  COMING SOON
+upcomingEventHtmlCode = `
+<button class="register" ${CommEventToggle ? "" : 'disabled'}>
+  <a ${CommEventToggle ? `href=${mainEvent[CommEventToggle].link}` : ``} target="_blank" class="register-btn_text">
+    ${mainEvent[CommEventToggle].Btntext}
   </a>
-  <!-- once registrations starts, this button will be updated with the registration link -->
-</button>`
-  document.getElementById("EventRegButton").innerHTML = Html
-};
+</button>
+`
+document.getElementById("EventRegButton").innerHTML = upcomingEventHtmlCode
 
 function slider() {
-
   // initialising slider
   let slides = document.getElementsByClassName("past-card");
   let slideIndex = 1;
   showSlides(slideIndex);
 
-
   // function to change slides number getting displayed
-
   function plusSlides(n) {
     slideIndex += n;
 
@@ -185,7 +181,6 @@ function slider() {
   }
 
   //function to display required slides
-
   function showSlides(pos) {
     // media query to show required no. of slides
     let screenSize = window.matchMedia("(max-width: 450px)");
@@ -193,7 +188,6 @@ function slider() {
     for (i = 0; i < slides.length; i++) {
       // makes all the slides disappear
       slides[i].style.display = "none";
-
     }
 
     // makes the required slides reappear
@@ -204,14 +198,11 @@ function slider() {
     if (!screenSize.matches) {
       slides[pos + 1].style.display = "block";
     }
-
   }
 
   // adding click action to both the anchor tags
-
   document.getElementById("prev").addEventListener("click", () => plusSlides(-1));
   document.getElementById("next").addEventListener("click", () => plusSlides(1));
-
 }
 
 function slider2() {
@@ -220,9 +211,7 @@ function slider2() {
   let slideIndex = 0;
   showSlides(slideIndex);
 
-
   // function to change slides number getting displayed
-
   function plusSlides(n) {
     slideIndex += n;
 
@@ -239,7 +228,6 @@ function slider2() {
   }
 
   //function to display required slides
-
   function showSlides(pos) {
     let i;
     for (i = 0; i < slides.length; i++) {
@@ -252,10 +240,8 @@ function slider2() {
   }
 
   // adding click action to both the anchor tags
-
   document.getElementById("prev").addEventListener("click", () => plusSlides(-1));
   document.getElementById("next").addEventListener("click", () => plusSlides(1));
-
 }
 
 //trial media query to display 1 card in mobile view
@@ -267,6 +253,7 @@ if (screenSize.matches) {
 else {
   slider();
 }
+
 
 
 
