@@ -106,7 +106,7 @@ var mainEvent = [
     Desc: `Do you want to know more about us? Join our group to stay updated by clicking on the button below`,
     Btntext: 'Join Us',
     dateComEvent: `2022-11-10`,
-    link: `https://chat.whatsapp.com/BLcwUfH7Gwv4MXf9GjpKk6r`
+    link: `https://chat.whatsapp.com/BLcwUfH7Gwv4MXf9GjpKk6r?wt.mc_id=studentamb_160166`
   }
 ];
 
