@@ -1,5 +1,10 @@
 var pastEvents = [
   {
+    Poster: "events/assets/events/MLSAC-UTSAV.jfif",
+    Name: "MLSAC-UTSAV",
+    Desc: "Happiness can be found even in the darkest of times, when one only remembers to turn on the light. MLSAC UTSAV was all about spreading joy through various fun filled games with exciting prizes for the top scorers"
+  },
+  {
     Poster: "events/assets/events/Web_D_Verse.png",
     Name: "Web-D-Verse",
     Desc: "A 2-day event organised by MLSAC-BVP, in the celebration of our second anniversary. Through this event, participants were able to experience a corporate environment, deal with clients and make specially curated websites for them."
@@ -68,25 +73,6 @@ var pastEvents = [
   }
 ]
 
-var mainEvent = [
-  { // fallback event for coming soon
-    Poster: "events/assets/events/fallback.jpeg", // Add A fallbak image
-    Name: "Coming soon",
-    Desc: `Hey, many great events are planned for you.
-Stay tuned to get to know about such opportunities in the future.`,
-    dateComEvent: `2022-01-01`, //yyyy-mm-dd,
-    link: `#`
-  }, { // the actual event ot Fresh event
-    Poster: "events/assets/events/Webdverse.jpeg",
-    Name: "WEB- D - VERSE",
-    Desc: `In celebration of its 2nd anniversary, MLSAC-BVP is back with something exciting in store for you all!
-We're weaving a web full of thrill and exposure. Surely you will get a different taste of WEB.
-REGISTER NOW...!!`,
-    dateComEvent: `2022-08-17`,
-    link: `https://unstop.com/hackathon/web-d-verse-bharati-vidyapeeths-college-of-engineering-bvcoe-new-delhi-404419?lb=w7fprHy`
-  }
-];
-
 htmlCode = ``;
 pastEvents.forEach(function (pastEvent) {
   htmlCode = htmlCode + `
@@ -104,58 +90,81 @@ pastEvents.forEach(function (pastEvent) {
 document.getElementById("past-events-details").innerHTML = htmlCode;
 
 // for the Upcoming event automation 
-var upcomeEventHtmlCode = ``;
 
-var checkEventDatefreshness = (eventDate) => { // please add date in yyyy-mm-dd formate
+var mainEvent = [
+  { // fallback event
+    Poster: "events/assets/events/fallback.jpeg",
+    Name: "Join Us",
+    Desc: `Hey, many great events are planned for you. Stay tuned to get to know about such opportunities in the future.`,
+    Btntext: 'Coming Soon',
+    dateComEvent: `2022-01-01`, // please add date in yyyy-mm-dd formate
+    link: `#`
+  },
+  { // upcoming event
+    Poster: "events/assets/events/join-core-1.jpeg",
+    Name: "Connect with Us",
+    Desc: `Do you want to know more about us? Join our group to stay updated by clicking on the button below`,
+    Btntext: 'Join Us',
+    dateComEvent: `2022-11-10`,
+    link: `https://chat.whatsapp.com/BLcwUfH7Gwv4MXf9GjpKk6r?wt.mc_id=studentamb_160166`
+  }
+];
+
+var upcomingEventHtmlCode = ``;
+
+// function for checking if the event is expired or not
+var checkEventDatefreshness = (eventDate) => {
   var TodayDate = new Date().getTime();
   var eveDate = new Date(eventDate).getTime();
-  if (TodayDate >= eveDate) {
+
+  if (eveDate <= TodayDate) {
     return 0;
   }
-  return 1;
+
+  else {
+    return 1;
+  }
 }
 
-var CommEventToggle = checkEventDatefreshness(mainEvent[1].dateComEvent); // true for fresh && false for Stale community event
-upcomeEventHtmlCode += ` 
-  <div class="poster">
-        <img src="${mainEvent[CommEventToggle].Poster}" alt="join team poster" class="event-poster" />
-      </div>
+// checking if the event is expired or not
+var CommEventToggle = checkEventDatefreshness(mainEvent[1].dateComEvent); // 1 for fresh && 0 for Stale community event
 
-      <div class="event-info">
-        <div class="event-name">
-          <h2>
-            ${mainEvent[CommEventToggle].Name}
-          </h2>
-        </div>
-        <div class="event-details">
-          <pre>${mainEvent[CommEventToggle].Desc}</pre>
-        </div>
+upcomingEventHtmlCode += ` 
+  <div class="poster">
+    <img src="${mainEvent[CommEventToggle].Poster}" alt="join team poster" class="event-poster" />
+  </div>
+
+  <div class="event-info">
+    <div class="event-name">
+      <h2>
+        ${mainEvent[CommEventToggle].Name}
+      </h2>
+    </div>
+    
+    <div class="event-details">
+      <pre>${mainEvent[CommEventToggle].Desc}</pre>
+    </div>
   </div>
 `
 
-document.getElementById("event-desc").innerHTML = upcomeEventHtmlCode;
+document.getElementById("event-desc").innerHTML = upcomingEventHtmlCode;
 
-// Check if communty event is stale and change registration button to Text
-if (!CommEventToggle) { // for Registration button to go stale if event is done
-  Html = `  <button class="register" disabled>
-  <a ${!CommEventToggle ? `` : `href=${mainEvent[CommEventToggle].link}`} target="_blank" class="register-btn_text">
-  COMING SOON
+upcomingEventHtmlCode = `
+<button class="register" ${CommEventToggle ? "" : 'disabled'}>
+  <a ${CommEventToggle ? `href=${mainEvent[CommEventToggle].link}` : ``} target="_blank" class="register-btn_text">
+    ${mainEvent[CommEventToggle].Btntext}
   </a>
-  <!-- once registrations starts, this button will be updated with the registration link -->
-</button>`
-  document.getElementById("EventRegButton").innerHTML = Html
-};
+</button>
+`
+document.getElementById("EventRegButton").innerHTML = upcomingEventHtmlCode
 
 function slider() {
-
   // initialising slider
   let slides = document.getElementsByClassName("past-card");
   let slideIndex = 1;
   showSlides(slideIndex);
 
-
   // function to change slides number getting displayed
-
   function plusSlides(n) {
     slideIndex += n;
 
@@ -172,7 +181,6 @@ function slider() {
   }
 
   //function to display required slides
-
   function showSlides(pos) {
     // media query to show required no. of slides
     let screenSize = window.matchMedia("(max-width: 450px)");
@@ -180,7 +188,6 @@ function slider() {
     for (i = 0; i < slides.length; i++) {
       // makes all the slides disappear
       slides[i].style.display = "none";
-
     }
 
     // makes the required slides reappear
@@ -191,14 +198,11 @@ function slider() {
     if (!screenSize.matches) {
       slides[pos + 1].style.display = "block";
     }
-
   }
 
   // adding click action to both the anchor tags
-
   document.getElementById("prev").addEventListener("click", () => plusSlides(-1));
   document.getElementById("next").addEventListener("click", () => plusSlides(1));
-
 }
 
 function slider2() {
@@ -207,9 +211,7 @@ function slider2() {
   let slideIndex = 0;
   showSlides(slideIndex);
 
-
   // function to change slides number getting displayed
-
   function plusSlides(n) {
     slideIndex += n;
 
@@ -226,7 +228,6 @@ function slider2() {
   }
 
   //function to display required slides
-
   function showSlides(pos) {
     let i;
     for (i = 0; i < slides.length; i++) {
@@ -239,10 +240,8 @@ function slider2() {
   }
 
   // adding click action to both the anchor tags
-
   document.getElementById("prev").addEventListener("click", () => plusSlides(-1));
   document.getElementById("next").addEventListener("click", () => plusSlides(1));
-
 }
 
 //trial media query to display 1 card in mobile view
@@ -254,6 +253,7 @@ if (screenSize.matches) {
 else {
   slider();
 }
+
 
 
 
