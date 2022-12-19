@@ -1,5 +1,20 @@
 var pastEvents = [
   {
+    Poster: "events/assets/events/uncharted.jpg",
+    Name: "Uncharted",
+    Desc: "Navigate through the byroads of our college, explore the hidden pathways, solve the mystery, complete the quest and find the treasure!"
+  },
+  {
+    Poster: "events/assets/events/Campus_Connect.jpg",
+    Name: "Campus Connect",
+    Desc: "Beyond the typical all-talks stuff, join us for a one-of-its kind workshop on Blockchain and Solana ,Getting Started By Web-3 and Informative Session on intro to solana"
+  },
+  {
+    Poster: "events/assets/events/hacktoberfest22-poster.jpg",
+    Name: "Hacktoberfest 2022",
+    Desc: "We at MLSAC-BVP are excited to showcase some of the projects made by our team during the Hacktoberfest We worked on four different projects of on domains such as Machine Learning, Full Stack Web Development, Real time Web-app"
+  },
+  {
     Poster: "events/assets/events/MLSAC-UTSAV.jfif",
     Name: "MLSAC-UTSAV",
     Desc: "Happiness can be found even in the darkest of times, when one only remembers to turn on the light. MLSAC UTSAV was all about spreading joy through various fun filled games with exciting prizes for the top scorers"
