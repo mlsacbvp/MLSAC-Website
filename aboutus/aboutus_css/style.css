@@ -97,6 +97,7 @@ html {
     display: block;
     background: url("../aboutus_assets/about us-4.png");
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .desc {
